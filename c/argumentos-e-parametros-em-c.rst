@@ -2,7 +2,7 @@ Argumentos e Parâmetros em C
 ############################
 :date: 2014-07-11 12:22
 :category: C
-:tags: c, argumentos, parâmetros, , programação, desenvolvimento, linha de comando, posix
+:tags: c, argumentos, parâmetros, programação, desenvolvimento, linha de comando, posix
 :image: /images/logos/c-programming.jpg
 :author: Fernando Almeida
 :description: Seguindo a mesma ideia de implementar padrões POSIX e aumentar a integração de programas em C, hoje vamos ver um assunto bem mais denso e complexo, argumentos e parâmetros.
