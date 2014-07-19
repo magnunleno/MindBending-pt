@@ -85,6 +85,7 @@ A primeira delas é a variável ``argc``, que entra na nossa velha ``main()`` e 
 .. code-block:: c
 
 	#include <stdio.h>
+        #include <stdlib.h>
 
 	void main(int argc, char** argv) {
 		printf("Valor de argc: %d\n", argc);
@@ -118,6 +119,7 @@ Vamos alterar nosso programa ``simples.c`` para que ele exiba todos nossos parâ
 .. code-block:: c
 
 	#include <stdio.h>
+        #include <stdlib.h>
 
 	void main(int argc, char** argv) {
 		int i;
