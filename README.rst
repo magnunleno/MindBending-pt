@@ -10,6 +10,18 @@ Tecnologias
 
 Todos os artigos são escritos utilizando a linguagem de marcação `reStructured Text`_ e são compilados para HTML com o auxílio do `Pelican`_.
 
+Diretórios
+----------
+
+Abaixo uma breve descrição sobre o conteúdo de cada diretório:
+
+- **audio:** Qualquer áudio que será referenciado no site, com exceção dos episódios do podcast Hack 'n' Cast;
+- **codes:** Códigos a serem disponibilizados para download deve ser colocados aqui;
+- **images:** Toda e qualquer imagem referenciada nos artigos deve se encontrar nesse diretório. Ele está em processo de organização e categorização;
+- **pages:** Páginas do site, como sobre-mim, projetos, e etc;
+- **articles:** Artigos do site. Cada artigo está dentro de um diretório que corresponde a sua categoria;
+- **extra:** Diretório contendo adequações de tema e robots.txt. Não deve ser modificado;
+
 Imagens
 -------
 
