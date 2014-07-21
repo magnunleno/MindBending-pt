@@ -1,0 +1,76 @@
+#!/usr/bin/env python
+# encoding: utf-8
+#
+# Copyright (C) 2014 - Magnun Leno
+# 
+# This file is free software: you can redistribute it and/or modify it under
+# the terms of the GNU General Public License as published by the Free
+# Software Foundation, either version 3 of the License, or (at your option)
+# any later version.
+# 
+# This file is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+# FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details.
+# 
+# You should have received a copy of the GNU General Public License along with
+# this file. If not, see http://www.gnu.org/licenses/.
+
+
+import sys
+import argparse
+
+
+def processa_args():
+    parser = argparse.ArgumentParser(
+            description='Este programa adiciona aspas duplas em todos os campos do CSV',
+            )
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--version', '-v', action='version', 
+            version='%(prog)s 1.0', help='Mostra mensagem de ajuda')
+    parser.add_argument('-i', action='store', dest='input',
+            help='Arquivo de entrada', required=True,
+                    )
+    parser.add_argument('-o', action='store', dest='output', 
+            help='Arquivo de saída', required=True,
+                    )
+    parser.add_argument('-s', action='store', dest='sep', 
+            help='Separador do CSV', default=';',
+                    )
+    env = parser.parse_args()
+    env.sep = env.sep[0]
+    return env
+
+def le_arquivo(fname):
+    try:
+        fd = open(fname, 'r')
+    except IOError:
+        print 'Arquivo de entrada não encontrado: %s'%env.input
+        exit(1)
+    for linha in fd.readlines():
+        yield linha
+    fd.close()
+
+def processa_linhas(linhas, sep):
+    for linha in linhas:
+        campos = linha.split(sep)
+        nova_linha = []
+        for campo in campos:
+            campo = campo.strip()
+            if not (campo.startswith('"') and campo.endswith('"')):
+                campo = '"%s"'%campo
+            nova_linha.append(campo)
+        nova_linha = sep.join(nova_linha)
+        nova_linha += '\n'
+        yield nova_linha
+
+def grava_arquivo(fname, linhas):
+    with open(fname, 'w') as fd:
+        fd.writelines(linhas)
+
+if __name__ == '__main__':
+    env = processa_args()
+    linhas = le_arquivo(env.input)
+    linhas = processa_linhas(linhas, sep=env.sep)
+    grava_arquivo(env.output, linhas)
+    exit(0)
