@@ -1,6 +1,6 @@
 Aberto a contribuições
 ######################
-:date: 2014-07-19 11:02
+:date: 2014-07-21 13:40
 :category: Mind Bending Blog
 :tags: open source, software livre, contribuições, github, git, pull request, blog
 :image: /images/MB_Logo_2014.png
