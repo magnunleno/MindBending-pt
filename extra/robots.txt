@@ -1,0 +1,12 @@
+User-agent: *
+
+Sitemap: http://mindbending.org/pt/sitemap.xml
+
+Disallow: /pt/theme/
+Disallow: /pt/tag/*
+Disallow: /pt/category/*
+Disallow: /pt/author/*
+Disallow: /pt/images/*
+Disallow: /pt/feeds/*
+Disallow: /pt/feeds.atom
+Disallow: /pt/feeds.rss

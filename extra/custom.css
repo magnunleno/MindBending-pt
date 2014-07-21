@@ -1,0 +1,90 @@
+#sidebar-brand h1 {
+    font-size: 34px;
+}
+
+/*
+article h1, article h2, article h3, article h4, article h5, article h6 {
+    text-transform: none;
+    text-align: left;
+}
+*/
+
+.entry-content {
+    text-align: justify;
+}
+
+.author-bio-text {
+    text-align: justify;
+    overflow: auto;
+}
+
+.navbar-default .navbar-nav > li > a:hover, 
+.navbar-default .navbar-nav > li > a:focus {
+    color: #050505;
+}
+.navbar-default .navbar-nav > li > a, 
+.navbar-default .navbar-nav > li > a {
+    color: #333333;
+}
+
+.navbar-brand {
+    color: #333333 !important;
+    float: none;
+}
+.navbar-brand:hover, 
+.navbar-brand:focus {
+    color: #050505 !important;
+}
+
+a.navbar-link {
+    color: #333333 !important;
+}
+a.navbar-link:hover, 
+a.navbar-link:focus {
+    color: #050505 !important;
+}
+
+.navbar.navbar-default.navbar-fixed-top {
+    border-top: 3px solid #333333;
+}
+
+#site-banner-brand {
+    padding-top: 40px;
+}
+
+body {
+    padding-top: 68px;
+}
+
+.navbar-form {
+    margin-top: 10px;
+}
+
+.entry-content .footnote-reference {
+    font-size: 75%;
+    margin-left: -0.3em;
+    vertical-align: top;
+}
+
+.pull-quote{
+        text-align: left;
+}
+
+.adsense {
+        text-align: center;
+}
+.section {
+    padding-top: 68px;
+    margin-top: -68px;
+}
+
+.podcast-player{
+    width: 85%;
+}
+.podcast-download{
+    font-size: 110%;
+}
+
+.summary{
+    text-align: justify;
+}
