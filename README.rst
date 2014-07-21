@@ -30,7 +30,7 @@ Algumas imagens referenciadas nos artigos podem possuir direitos autorais ou lic
 Licensa
 -------
 
-Todos os **artigo** do Mind Bending Blog estão sob a licença `Creative Commons Attribution-ShareAlike 4.0`_ International (CC BY-SA 4.0).
+Todos os **artigos** do Mind Bending Blog estão sob a licença `Creative Commons Attribution-ShareAlike 4.0`_ International (CC BY-SA 4.0).
 
 .. _Mind Bending: http://mindbending.org/pt
 .. _reStructured Text: http://docutils.sourceforge.net/rst.html
