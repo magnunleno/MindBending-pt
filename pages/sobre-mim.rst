@@ -11,9 +11,9 @@ Sobre Mim
 
         Meu antigo avatar
 
-Sou uma pessoa comum, graduado em Engenharia de Telecomunicações e
-Pós-Graduado em Análise de Sistemas Orientados a Objeto, e que gosta de
-escrever sobre tecnologia, especialmente FOSS (Free Open Source
+Meu nome é Magnun Leno, sou uma pessoa comum, graduado em Engenharia de
+Telecomunicações e Pós-Graduado em Análise de Sistemas Orientados a Objeto, e
+que gosta de escrever sobre tecnologia, especialmente FOSS (Free Open Source
 Software) e GNU/Linux.
 
 Meu primeiro conato com o GNU/Linux foi no trabalho, ao 19 anos. Minha
