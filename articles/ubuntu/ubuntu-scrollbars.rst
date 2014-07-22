@@ -5,7 +5,7 @@ Nova Barra de Rolagem no Ubuntu 11.04
 :tags: design, scrollbars, ubuntu
 :slug: ubuntu-scrollbars
 :description: Barras de rolagem parecem ser o foco de trabalho do momento, primeiro o Google Wave, depois o Ubuntu e agora o MacOS
-:image: /images/ubuntu-scroll-bars.jpeg
+:image: /images/ubuntu-scroll-bars.jpg
 
 Recentemente a área de design OpenSource tem estado bem ocupada e ao mesmo tempo criativa. A poucos dias (no lanamento do Alpha 3 do Ubuntu 11.04) tivemos as `mudanças significativas no Unity`_, em seguida vimos as `mudanças do Gnome 3`_ (botões de Maximizar e Minimizar) e agora foi noticiado um re-design das barras de rolagem no Ubuntu 11.04.
 
@@ -45,9 +45,9 @@ de rolagem. Criando um ambiente de trabalho mais "espaçoso", limpo e
 simples.
 
 
-.. figure:: {filename}/images/ubuntu-scroll-bars.jpeg
+.. figure:: {filename}/images/ubuntu-scroll-bars.jpg
         :align: center
-        :target: {filename}/images/ubuntu-scroll-bars.jpeg
+        :target: {filename}/images/ubuntu-scroll-bars.jpg
         :alt: Ubuntu Scrollbars
 
         Ubuntu Scrollbars

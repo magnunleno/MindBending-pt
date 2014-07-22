@@ -125,9 +125,9 @@ hardware, software e sistemas de redes e estimularam o crescimento de
 toda uma indústria, e deste modo alavancaram a liderança americana na
 Era da Informação".
 
-.. figure:: {filename}/images/dennis_medal.jpeg
+.. figure:: {filename}/images/dennis_medal.jpg
 	:align: center
-	:target: {filename}/images/dennis_medal.jpeg
+	:target: {filename}/images/dennis_medal.jpg
 	:alt: Left to right Kenneth L. Thompson, Dennis M.  Ritchie
 
         Left to right KennethL. Thompson, Dennis M. Ritchie

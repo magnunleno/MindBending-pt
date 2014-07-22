@@ -61,8 +61,8 @@ Bootando o Sistema
 
 O processo de *boot*é simples. Após inserir o sistema é apresentada a *splash screen*. Bastando apenas escolher a opção "*Boot Arch Linux*". A propósito, é uma bela splashscreen, não?!
 
-.. figure:: {filename}/images/01-Arch-Linux-ISO-Splash-Screen.jpeg
-        :target: {filename}/images/01-Arch-Linux-ISO-Splash-Screen.jpeg
+.. figure:: {filename}/images/01-Arch-Linux-ISO-Splash-Screen.jpg
+        :target: {filename}/images/01-Arch-Linux-ISO-Splash-Screen.jpg
         :align: center
         :alt: Arch Linux ISO Splash Screen
 
@@ -72,8 +72,8 @@ Após o *boot*, é apresentada a tela de login. Acima uma mensagem de onde tiram
 
 Após o *logon* é apresentado a mensagem informando como iniciar a instalação e que existe uma guia de instalação em ``/usr/share/aif/docs``. Ótimo, caso tenhamos dúvidas não será necessário um Notebook ou coisa parecida para consultar a internet. Para os que querem se antecipar, esse mesmo `guia está disponível aqui`_, leiam pois vale a pena.
 
-.. figure:: {filename}/images/02-Apos-Login.jpeg
-        :target: {filename}/images/02-Apos-Login.jpeg
+.. figure:: {filename}/images/02-Apos-Login.jpg
+        :target: {filename}/images/02-Apos-Login.jpg
         :align: center
         :alt: Após o Login
 
@@ -84,8 +84,8 @@ Configurando o Teclado
 
 Na mesma mensagem é informado o utilitário ``km``, muito útil para nos brasileiros, que utilizamos o *layout* ABNT-2. Chamando o utilitário temos a seguinte tela:
 
-.. figure:: {filename}/images/03-Esolher-Teclado-ABNT-2.jpeg
-        :target: {filename}/images/03-Esolher-Teclado-ABNT-2.jpeg
+.. figure:: {filename}/images/03-Esolher-Teclado-ABNT-2.jpg
+        :target: {filename}/images/03-Esolher-Teclado-ABNT-2.jpg
         :align: center
         :alt: Esolher Teclado ABNT 2
 
@@ -98,8 +98,8 @@ Iniciando a Instalação
 
 Ao sair do ``KM``, estaremos de volta ao *bash*. Para começar o processo de instalação basta chamar o instalador ``/arch/setup`` ou ``aif -p interactive``. Caso precise de um console extra durante a instalação (para fazer verificações e/ou configurações), pressione Ctrl+Alt+F2.
 
-.. figure:: {filename}/images/04-Alerta-de-Instalacao.jpeg
-        :target: {filename}/images/04-Alerta-de-Instalacao.jpeg
+.. figure:: {filename}/images/04-Alerta-de-Instalacao.jpg
+        :target: {filename}/images/04-Alerta-de-Instalacao.jpg
         :align: center
         :alt: Alerta de Instalação
 
@@ -107,8 +107,8 @@ Ao sair do ``KM``, estaremos de volta ao *bash*. Para começar o processo de ins
 
 Logo no início temos uma mensagem interessante, e um pouco assustadora.  Após a mensagem, é mostrado um "*script* de instalação":
 
-.. figure:: {filename}/images/05-Ordem-de-Instalacao.jpeg
-        :target: {filename}/images/05-Ordem-de-Instalacao.jpeg
+.. figure:: {filename}/images/05-Ordem-de-Instalacao.jpg
+        :target: {filename}/images/05-Ordem-de-Instalacao.jpg
         :align: center
         :alt: Ordem de Instalação
 
@@ -121,8 +121,8 @@ Origem da Instalação
 
 Para ajustar a origem de instalação escolha a opção "*Select Source*".  Aqui temos a opção de mudar as fontes de onde serão "puxados" os arquivos para instalação, temos a opção CD ou Net (internet). Para obter os pacotes mais atuais sugiro selecionar a opção Net.
 
-.. figure:: {filename}/images/06-Oscolhendo-a-Fonte.jpeg
-        :target: {filename}/images/06-Oscolhendo-a-Fonte.jpeg
+.. figure:: {filename}/images/06-Escolhendo-a-Fonte.jpg
+        :target: {filename}/images/06-Escolhendo-a-Fonte.jpg
         :align: center
         :alt: Escolhendo a Fonte
 
@@ -139,8 +139,8 @@ Para baixar da internet temos que configurar a interface de rede, para isso esco
 
 Agora vamos escolher um Mirror. Um Mirror é um servidor que contem os pacotes que serão baixados e posteriormente instalados. Para um melhor desempenho é sempre aconselhável escolher um Mirror perto de você. Como estamos no Brasil, vou escolher o Mirror da Unicamp, para isso escolha a opção "2 Choose Mirror" e em seguida procure pela opção que mais se te agrada. Em seguida retornamos para o menu principal.
 
-.. figure:: {filename}/images/08-Mirrors.jpeg
-        :target: {filename}/images/08-Mirrors.jpeg
+.. figure:: {filename}/images/08-Mirrors.jpg
+        :target: {filename}/images/08-Mirrors.jpg
         :align: center
         :alt: Mirrors
 
@@ -153,8 +153,8 @@ Configurando a Hora
 
 Em Seguida precisamos configurar o relógio.
 
-.. figure:: {filename}/images/09-Hora.jpeg
-        :target: {filename}/images/09-Hora.jpeg
+.. figure:: {filename}/images/09-Hora.jpg
+        :target: {filename}/images/09-Hora.jpg
         :align: center
         :alt: Configurar a Hora
 
@@ -279,8 +279,8 @@ Configurando o Sistema
 
 Ao termino da instalação dos pacotes escolha a opção "*Configure System*". O instalador irá te questionar sobre a utilização das configurações de rede durante a instalação, escolha a opção "*Yes*". Em seguida escolha o editor a ser utilizado. Como esta será uma máquina *desktop*, não há muito o que alterar. Como sou usuário do VIM, escolhi o editor VI, caso você não conheça o VI, utilize outro editor como o Nano. Ao final o processo de instalação irá te apresentar uma lista de arquivos para edição, conforme a imagem abaixo:
 
-.. figure:: {filename}/images/14-Arquivos-de-configuracao.jpeg
-        :target: {filename}/images/14-Arquivos-de-configuracao.jpeg
+.. figure:: {filename}/images/14-Arquivos-de-configuracao.jpg
+        :target: {filename}/images/14-Arquivos-de-configuracao.jpg
         :align: center
         :alt: Arquivos de configuração
 
@@ -290,8 +290,8 @@ O Arch segue o princípio do FreeBSD de utilizar o arquivo ``/etc/rc.conf`` como
 
 Na tela acima, escolha a opção ``/etc/rc.conf``. Procure a linha *HOSTNAME* e altere o valor entre aspas colocando o nome que você quer para sua máquina, no exemplo coloquei *magnun-Desktop*. Ainda no *rc.conf* procure a linha *LOCALE* e altera para *pt\_BR.utf8*, essa linha define que seu GNU/Linux será em português.
 
-.. figure:: {filename}/images/15-Editando-o-rcconf.jpeg
-        :target: {filename}/images/15-Editando-o-rcconf.jpeg
+.. figure:: {filename}/images/15-Editando-o-rcconf.jpg
+        :target: {filename}/images/15-Editando-o-rcconf.jpg
         :align: center
         :alt: Editando o rc.conf
 
@@ -310,8 +310,8 @@ Escolha a opção "*Install Bootloader*", em seguida escolha *Grub*. Após isso 
 
 Para finalizar a instalação, escolha a opção "*Exit Install*" e você cairá de volta ao *shell*. Reinicie seu computador com o comando ``reboot`` e em seguida retire o CD do Arch. Após o POST você verá a tela do GRUB abaixo:
 
-.. figure:: {filename}/images/16-GRUB.jpeg
-        :target: {filename}/images/16-GRUB.jpeg
+.. figure:: {filename}/images/16-GRUB.jpg
+        :target: {filename}/images/16-GRUB.jpg
         :align: center
         :alt: Hello GRUB
 
@@ -319,8 +319,8 @@ Para finalizar a instalação, escolha a opção "*Exit Install*" e você cairá
 
 Ao final do carregamento do sistema, você verá a tela de boas vindas:
 
-.. figure:: {filename}/images/17-Login.jpeg
-        :target: {filename}/images/17-Login.jpeg
+.. figure:: {filename}/images/17-Login.jpg
+        :target: {filename}/images/17-Login.jpg
         :align: center
         :alt: Tarde de mais! Agora você está infectado pelo Arch!
 
