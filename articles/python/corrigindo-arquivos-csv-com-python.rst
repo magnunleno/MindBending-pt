@@ -14,7 +14,7 @@ Ontem eu estava conversando com alguns colegas e um deles acabou soltando que es
         :align: center
 
 
-Na hora eu falei pra ele, "Use Python!", e em seguida todos me disseram que era trabalho de mais escrever um programa só pra isso. Será mesmo?
+Na hora eu falei pra ele, "Use Python!", e em seguida todos me disseram que era trabalho demais escrever um programa só pra isso. Será mesmo?
 
 .. more
 

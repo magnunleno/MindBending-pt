@@ -322,9 +322,9 @@ Ao final do carregamento do sistema, você verá a tela de boas vindas:
 .. figure:: {filename}/images/17-Login.jpg
         :target: {filename}/images/17-Login.jpg
         :align: center
-        :alt: Tarde de mais! Agora você está infectado pelo Arch!
+        :alt: Tarde demais! Agora você está infectado pelo Arch!
 
-        Tarde de mais! Agora você está infectado pelo Arch!
+        Tarde demais! Agora você está infectado pelo Arch!
 
 Pronto, estamos com o Arch instalado no computador.
 

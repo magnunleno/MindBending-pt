@@ -26,7 +26,7 @@ Também foram adicionadas entradas no menu da janela de bate-papo, além de ser 
 
 .. more
 
-Essa nova funcionalidade quase não entrou para o próximo lançamento do Empathy pois este já estava em estado de "freeze", durante o qual é feito a tradução. Após contato com o time de tradução foi aberta uma exceção pois, de acordo com `Chandni Verma`_, essa funcionalidade "é boa de mais para não entrar nessa release" (tradução livre).
+Essa nova funcionalidade quase não entrou para o próximo lançamento do Empathy pois este já estava em estado de "freeze", durante o qual é feito a tradução. Após contato com o time de tradução foi aberta uma exceção pois, de acordo com `Chandni Verma`_, essa funcionalidade "é boa demais para não entrar nessa release" (tradução livre).
 
 **Fonte:** `Planet Gnome`_
 

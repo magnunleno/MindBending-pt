@@ -8,7 +8,7 @@ Página do Mind Bending Blog no Facebook
 Olá pessoal, este é um post bem rápido somente para informar que agora o
 `Mind Bending Blog tem uma página no Facebook`_! Na verdade já tem um
 certo tempo que eu criei, mas somente hoje consegui tempo pra anunciar.
-Vocês devem estar pensando que não é nada de mais, certo!? Afinal de
+Vocês devem estar pensando que não é nada demais, certo!? Afinal de
 contas, todo mundo tem Facebook, certo?! Errado...
 
 .. image:: {filename}/images/redes-sociais.jpg

@@ -12,7 +12,7 @@ Vou iniciar esse artigo da mesma forma que `Alex Gaynor <http://alexgaynor.net/>
     :alt: PyCon 2010
     :align: center
 
-Para os que aprenderam a programar em linguagens de alto nível, estruturas de dado não é nada de mais. Mas para as pessoas mais velhas como eu, que começaram a programar em C, estruturas de dados é algo extremamente difícil, porém valioso. O que ocorre é que as linguagens de alto nível já possuem diversas estruturas de dados implementadas, tornando sua utilização algo simples e indolor.
+Para os que aprenderam a programar em linguagens de alto nível, estruturas de dado não é nada demais. Mas para as pessoas mais velhas como eu, que começaram a programar em C, estruturas de dados é algo extremamente difícil, porém valioso. O que ocorre é que as linguagens de alto nível já possuem diversas estruturas de dados implementadas, tornando sua utilização algo simples e indolor.
 
 .. more
 

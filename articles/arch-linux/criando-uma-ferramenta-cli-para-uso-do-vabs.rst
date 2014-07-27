@@ -72,7 +72,7 @@ Para isso, vamos criar o seguinte trecho de código (que já seria suficiente) p
 
     def valida_args():
         if len(argv) <= 2 or len(argv) > 3:
-            # Argumentos de menos ou de mais
+            # Argumentos de menos ou demais
             print "Por favor informe os argumentos corretamente"
             print "Utilização: vabs-tool [-s|-d] n"
             exit(1)
