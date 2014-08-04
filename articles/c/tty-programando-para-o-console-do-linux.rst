@@ -2,8 +2,8 @@ TTY - Programando para o console do Linux
 =========================================
 :date: 2014-08-04 13:55
 :category: C
-:tags: c, linux, tty
-:image: /images/logos/tcpl.jpg
+:tags: c, linux, tty, programção, terminal, cr, lf, flush
+:image: /images/logos/terminal.jpg
 :author: Fernando Almeida
 :description: É curioso como certas coisas (mesmo defasadas caídas em desuso) se mantêm no mundo da tecnologia, o disquete como símbolo de salvar, as teclas HJLK no VIM, o conceito de TTY no GNU/Linux...
 
