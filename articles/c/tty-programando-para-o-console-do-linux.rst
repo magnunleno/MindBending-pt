@@ -11,7 +11,7 @@ Outro dia eu estava desenvolvendo um programa para o GNU/Linux em modo texto e e
 
 .. image:: {filename}/images/tty/terminal.jpg
         :target: {filename}/images/tty/terminal.jpg
-        :alt: Termianl
+        :alt: Terminal
         :align: center
 
 Na verdade o correto não é modo texto, mas sim "Terminal". Terminal, Modo Texto, TTY? *What the Hell*?
