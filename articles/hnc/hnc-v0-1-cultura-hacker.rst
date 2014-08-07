@@ -85,6 +85,26 @@ Show Notes
 - `[Podcast] Grok Podcast sobre Biohackers brasileiros - Parte 3 de 3`_
 - `[Notícia] Maior corretora de bitcoin pede proteção contra falência`_
 
+Trilha Sonora
+=============
+
+A trilha sonora de hoje é uma homenagem a uma das minhas bandas prediletas Rush:
+
+- Working Man (Rush - 1974);
+- What You're Doing (Rush - 1974);
+- Bastille Day (Caress of Steel - 1975);
+- Anthem (Fly By Night - 1975);
+- 2112 (2112 - 1976);
+- The Spirit Of Radio (1980 - Permanent Waves);
+- Limelight (1981 - Moving Pictures);
+- Animate (1993 - Counterparts);
+- One Little Victory (2002 - Vapor Trails);
+- Earthshine (2002 - Vapor Trails);
+- YYZ (1981 - Moving Pictures);
+- Distant Early Warning (1984 - Grace Under Pressure);
+- Malignant Narcissism (2007 - Snakes & Arrows).
+
+
 Contato
 =======
 
