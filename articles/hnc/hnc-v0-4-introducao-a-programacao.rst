@@ -1,11 +1,11 @@
 Hack 'n' Cast v0.4 - Introdução à Programação
 #############################################
-:date: 2014-08-07 01:26
+:date: 2014-08-07 02:04
 :category: Hack 'n' Cast
 :tags: hack 'n' cast, podcast, beta, programação, orientação a objetos, estruturada, funcional, babbage, ada lovelace, computadores, ábaco, calculadoras, sintaxe, semântica, AC/DC
 :image: /images/hack-n-cast/v0.x/v0.4-cover-sqr.png
-:length: 49361899
-:duration: 101:03
+:length: 86272963
+:duration: 89:00
 :podcast: http://archive.org/download/HNC.v0.4-Introducao-a-programacao/HNC.v0.4-Introducao-a-programacao.mp3
 :podcastembed: http://archive.org/embed/HNC.v0.4-Introducao-a-programacao/HNC.v0.4-Introducao-a-programacao/mp3
 :description: Ah, A programação! A bela arte de gerar códigos! Linus Torvalds já dizia: programar é para poucos. Eu ainda acrescento: programar bem é para raríssimos. Você também não está neste seleto grupo? Então junte-se a nos e venha se divertir com esse tópico!
