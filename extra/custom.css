@@ -81,7 +81,8 @@ body {
 .podcast-player{
     width: 85%;
 }
-.podcast-download{
+.podcast-download,
+.podcast-subscribe{
     font-size: 110%;
 }
 
