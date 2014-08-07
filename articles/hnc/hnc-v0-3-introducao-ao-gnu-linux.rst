@@ -22,6 +22,8 @@ Sendo assim, vamos ver conceitos como: o que é o kernel, o primeiro kernel, a o
 .. more
 
 .. podcast:: HNC.v0.3-Introducao-ao-GNU-Linux
+        :rss: http://feeds.feedburner.com/hack-n-cast
+        :itunes: https://itunes.apple.com/br/podcast/hack-n-cast/id884916846
 
 O Sorteio
 =========

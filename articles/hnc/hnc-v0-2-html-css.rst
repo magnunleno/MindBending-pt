@@ -24,6 +24,8 @@ Também neste episódio, inauguramos a seção de notícias, dicas e *Bug Report
 .. more
 
 .. podcast:: HnC.v0.2-HTML-e-CSS
+        :rss: http://feeds.feedburner.com/hack-n-cast
+        :itunes: https://itunes.apple.com/br/podcast/hack-n-cast/id884916846
 
 Introdução
 ==========

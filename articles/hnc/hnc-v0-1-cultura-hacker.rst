@@ -29,6 +29,8 @@ Sejam todos bem vindos ao primeiro episódio do **Hack 'n' Cast**! É isso aí p
 .. more
 
 .. podcast:: HNC.v0.1-Cultura-Hacker
+        :rss: http://feeds.feedburner.com/hack-n-cast
+        :itunes: https://itunes.apple.com/br/podcast/hack-n-cast/id884916846
 
 
 Cultura Hacker
