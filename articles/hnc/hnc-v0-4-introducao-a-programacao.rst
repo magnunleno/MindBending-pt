@@ -178,7 +178,9 @@ Links
 
 - `Adolescentes Canadenses Hackeiam ATM com Informações da Internet`_;
 - `Criaram uma linguagem de programação inspirada em Arnold Schwarzenegger`_;
-- `Scicast sobre Orientação a Objeto`_.
+- `Scicast sobre Orientação a Objeto`_;
+- `Hello World em diversas linguagens`_.
+
 
 Trilha Sonora
 =============
@@ -233,3 +235,4 @@ Album "Dirty Deeds Done Dirt Cheap" (1976)
 .. _Adolescentes Canadenses Hackeiam ATM com Informações da Internet: http://meiobit.com/289571/adolescentes-canadenses-hackeiam-caixa-eletronico-com-instrucoes-encontradas-na-internet/
 .. _Criaram uma linguagem de programação inspirada em Arnold Schwarzenegger: http://gizmodo.uol.com.br/programacao-schwarzenegger/
 .. _Scicast sobre Orientação a Objeto: http://www.scicast.com.br/scicast-032-programacao-orientada-a-objetos/
+.. _Hello World em diversas linguagens: https://github.com/leachim6/hello-world
