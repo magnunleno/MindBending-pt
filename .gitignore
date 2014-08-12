@@ -1,1 +1,4 @@
 drafts
+__pycache__
+*.pyc
+*.pyo
