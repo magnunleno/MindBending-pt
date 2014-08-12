@@ -5,6 +5,13 @@ Artigos em Portugês do Brasil para o site `Mind Bending`_.
 
 Se você quiser contribuir com algum artigo ou correção sinta-se livre para enviar um Pull-request.
 
+Instalando e Testando
+---------------------
+
+Para instalar e testar esse site leia `esta documentação`_.
+
+
+
 Tecnologias
 -----------
 
