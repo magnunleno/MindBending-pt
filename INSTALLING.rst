@@ -55,14 +55,15 @@ Compilando o Site
 -----------------
 
 Existem algumas formas de se compilar o site para testes, dependendo de como você irá visualizá-lo:
+
 - Utilizando o servidor web embutido no python;
 - Utilizando o firefox/chrome navegando via sistema de arquvios (caminhos relativos);
 - Utilizando o NGINX.
 
 **Nota:** Eu sempre uso o NGINX pois reproduz fielmente o ambiente de produção.
 
-Servidor Web Embutido no Python
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Servidor NGINX
+~~~~~~~~~~~~~~
 
 Primeiramente instale o NGINX, e copie o arquivo `/.conf/nginx-mindbending.dev` para `/etc/nginx/site-avaiable/mindbending.dev`. Em seguida crie um link simbólico no diretório `sites-enabled`:
 .. code::
