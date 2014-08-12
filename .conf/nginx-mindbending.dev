@@ -1,0 +1,15 @@
+server {
+	listen localhost:80 default_server;
+	server_name localhost mindbending.dev;
+
+	root /var/www/MindBending;
+	index index.html index.htm;
+
+	rewrite ^/(.*)/$ /$1 permanent;
+
+	location / {
+		try_files $uri/index.html $uri.html $uri =404;
+		gzip_static on;
+		error_page 404 /404;
+	}
+}
