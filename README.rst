@@ -15,12 +15,20 @@ Diretórios
 
 Abaixo uma breve descrição sobre o conteúdo de cada diretório:
 
-- **content/audio:** Qualquer áudio que será referenciado no site, com exceção dos episódios do podcast Hack 'n' Cast;
-- **content/codes:** Códigos a serem disponibilizados para download deve ser colocados aqui;
-- **content/images:** Toda e qualquer imagem referenciada nos artigos deve se encontrar nesse diretório. Ele está em processo de organização e categorização;
-- **content/pages:** Páginas do site, como sobre-mim, projetos, e etc;
-- **content/articles:** Artigos do site. Cada artigo está dentro de um diretório que corresponde a sua categoria;
-- **content/extra:** Diretório contendo adequações de tema e robots.txt. Não deve ser modificado;
+- **content:** Conteúdos do site:
+        - **audio:** Qualquer áudio que será referenciado no site, com exceção dos episódios do podcast Hack 'n' Cast;
+        - **codes:** Códigos a serem disponibilizados para download deve ser colocados aqui;
+        - **images:** Toda e qualquer imagem referenciada nos artigos deve se encontrar nesse diretório. Ele está em processo de organização e categorização;
+        - **pages:** Páginas do site, como sobre-mim, projetos, e etc;
+        - **articles:** Artigos do site. Cada artigo está dentro de um diretório que corresponde a sua categoria;
+        - **extra:** Diretório contendo adequações de tema e robots.txt. Não deve ser modificado;
+- **.conf:** Configurações do site:
+        - **nginx-mindbending.dev:** Arquivo de configuração de demonstração para o NGINX;
+        - **pelicanconf.py:** Arquivo de configuração base;
+        - **pelicannginx.py:** Adaptação do arquivo de configuração para trabalhar com NGINX;
+        - **pelicanrelative.py:** Adaptação do arquivo de configuração para trabalhar com caminhos relativos;
+        - **boothack:** Tema utilizado no site (extremamente desorganizado!);
+        - **plugins:** Plugins básicos para construção do site.
 
 Imagens
 -------
