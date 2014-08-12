@@ -1,0 +1,53 @@
+{% set CONTEXT = 'authors' %}
+{% extends "base.html" %}
+
+{% block title %}Authors | {{ SITENAME }}{% endblock %}
+
+{% block breadcrumbs %}
+    {% if DISPLAY_BREADCRUMBS %}
+    <div>
+        <ol class="breadcrumb">
+            <li>
+                <span itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+                <a href="{{ SITEURL }}" title="{{ SITENAME }}" itemprop="url">
+                    <i class="fa fa-home fa-lg"></i>
+                    <span itemprop="title" class="hidden">{{ DEFAULT_LANG }}</span>
+                </a>
+                </span>
+            </li>
+            <li class="active">
+                <span itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+                <a href="#" title="Authors" itemprop="url">
+                    <span itemprop="title">Authors</span>
+                </a>
+                </span>
+            </li>
+        </ol>
+    </div>
+    {% endif %}
+{% endblock %}
+
+{% block content %}
+    <section id="content">
+        <article>
+            <h1>Authors on {{ SITENAME }}</h1>
+            <ul class="list-group list-inline">
+            {% for author, articles in authors|sort %}
+                {% if AUTHORS is defined %}
+                    {% set _author = AUTHORS.get(author.name, None) %}
+                {% else %}
+                    {% set _author = None %}
+                {% endif %}
+                <li>
+                    <div class="figure">
+                        <a href="{{ author.url }}" class="reference external image-reference">
+                            <img class="author-avatar" src="{% if _author.avatar %}{{ SITEURL }}{{ _author.avatar }}{% else %}http://placehold.it/180x180&text={{ author.name }} avatar{% endif %}" alt="{{ author.name }}">
+                        </a>
+                        <p class="caption"><a href="{{ author.url }}">{{ author.name }}</a></p>
+                    </div>
+                </li>
+            {% endfor %}
+            </ul>
+        </article>
+    </section>
+{% endblock %}

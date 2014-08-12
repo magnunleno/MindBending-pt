@@ -1,0 +1,57 @@
+{% if SIDE_BRAND_ELEMENTS is not defined or 'all' in SIDE_BRAND_ELEMENTS %}
+    {% set SIDE_BRAND_ELEMENTS = ['logo', 'name', 'links', 'social', 'search'] %}
+{% endif %}
+
+{% if SIDE_BRAND_ELEMENTS %}
+    <section id="sidebar-brand">
+        <div>
+            {% if 'logo' in SIDE_BRAND_ELEMENTS %}
+            <a href="{{ SITEURL }}"><img src="{{ SITEURL }}/{{ SITELOGO }}" alt="{{ SITENAME }}" class="img-rounded"></a>
+            {% endif %}
+            {% if 'name' in SIDE_BRAND_ELEMENTS %}
+            <a href="{{ SITEURL }}"><h1 class="center-block">{{ SITENAME }}</h1></a>
+            {% endif %}
+        </div>
+        {% if 'links' in SIDE_BRAND_ELEMENTS %}
+        <div id="site-links-side">
+            <ul class="list-group list-inline">
+                {% for name, link in SITE_LINKS %}
+                    <li class="list-group-item tag-8">
+                        <span class="label label-default">
+                            <a href="{{ SITEURL }}/{{ link }}">{{ name }}</a>
+                        </span>
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+        {% endif %}
+
+        {% if 'social' in SIDE_BRAND_ELEMENTS %}
+            <div id="social-side">
+                <ul class="list-group list-inline">
+                    {% for name, link in SOCIAL %}
+                        <li class="list-group-item">
+                            <a href="{{ link }}"><i class="fa fa-{{ name|lower|replace('+','-plus') }} fa-lg"></i></a>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        {% endif %}
+
+        {% if 'search' in SIDE_BRAND_ELEMENTS and GOOGLE_CSE_ID %}
+        <div id="site-search">
+            <form id="cse-search-box" role="search" action="http://google.com/cse">
+            <div class="input-group">
+                <input type="hidden" name="cx" value="{{ GOOGLE_CSE_ID }}" />
+                <input type="hidden" name="ie" value="UTF-8" />
+                <input type="text" class="form-control" placeholder="Search" name="q" id="srch-term">
+                <div class="input-group-btn">
+                    <button class="btn btn-default" name="sa" value="search" type="submit"><i class="fa fa-search"></i></button>
+                </div>
+            </div>
+            </form>
+        </div>
+        {% endif %}
+        <hr />
+    </section>
+{% endif %}

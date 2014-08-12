@@ -1,0 +1,39 @@
+{% if article.related_posts %}
+<section class="well" id="related-posts">
+    <h4>{{ RELATED_POSTS_TEXT|default('Related Posts:') }}</h4>
+    {% if RELATED_POSTS_CAROUSEL|default(True) %}
+        <div class="carousel slide" id="relatedCarousel">
+            <!-- Carousel items -->
+            <div class="carousel-inner related">
+            {% for row in article.related_posts|batch(5) %}
+                <div class="item {% if loop.first %}active{% endif %}">
+                    <div class="row">
+                    {% for related_article in row %}
+                        <div class="col-md-2 col-xs-2 {% if loop.first %}col-md-offset-1 col-xs-offset-1{% endif %}">
+                            <a href="{{ SITEURL }}/{{ related_article.url}}" title="{{ related_article.title|striptags|e }}" target="_blank">
+                                <img class="img-responsive" alt="{{ related_article.title|striptags|e }}" src="{{ SITEURL }}{{ related_article.image }}">
+                            </a>
+                            <div class="caption">
+                                <h6><a href="{{ SITEURL }}/{{ related_article.url}}" title="{{ related_article.title|striptags|e }}" target="_blank">{{ related_article.title }}</a></h6>
+                            </div>
+                        </div>
+                    {% endfor %}
+                    </div>
+                    <!--/row-->
+                </div>
+                <!--/item-->
+            {% endfor %}
+            </div>
+            <!--/carousel-inner-->
+            <a data-slide="prev" href="#relatedCarousel" class="left carousel-control related"><span class="glyphicon glyphicon-chevron-left"></span></a>
+            <a data-slide="next" href="#relatedCarousel" class="right carousel-control related"><span class="glyphicon glyphicon-chevron-right"></span></a>
+        </div>
+    {% else %}
+        <ul>
+        {% for related_post in article.related_posts %}
+            <li><a href="{{ SITEURL }}/{{ related_post.url }}">{{ related_post.title }}</a></li>
+        {% endfor %}
+        </ul>
+    {% endif %}
+</section>
+{% endif %}

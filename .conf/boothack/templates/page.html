@@ -1,0 +1,103 @@
+{% set CONTEXT = 'page' %}
+{% extends "base.html" %}
+{% block itemscope %}itemscope itemtype="http://schema.org/Article"{% endblock %}
+{% block title %}{{ page.title }} | {{ SITENAME }}{% endblock %}
+
+{% block seo %}
+    <!-- OpenGraph -->
+    <meta property="og:type" content="article"/>
+    <meta property="og:title" content="{{ page.title }}"/>
+    <meta property="og:url" content="{{ SITEURL }}/{{ page.url }}"/>
+    <meta property="og:site_name" content="{{ SITENAME }}"/>
+    {% if page.description %}
+    <meta property="og:description" content="{{ page.description|striptags|escape }}"/>
+    {% else %}
+    <meta property="og:description" content="{{ page.summary|striptags|escape|truncate(150) }}"/>
+    {% endif %}
+    {% if OPEN_GRAPH_IMAGE or page.image %}
+    <meta property="og:image" content="{{ SITEURL }}{% if page.image %}{{ page.image }}{% else %}{{ OPEN_GRAPH_IMAGE }}{% endif %}"/>
+    {% endif %}
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:site" content="@mind_bend"/>
+    <meta name="twitter:creator" content="@mind_bend"/>
+    <meta name="twitter:domain" content="mindbending.org"/>
+    <meta name="twitter:image:src" content="{{ SITEURL }}{% if page.image %}{{ page.image }}{% else %}{{ OPEN_GRAPH_IMAGE }}{% endif %}"/>
+
+    <!-- Google+ -->
+    <meta itemprop="name" content="{{ page.title }}"/>
+    {% if page.description %}
+    <meta itemprop="description" content="{{ page.description|striptags|escape }}"/>
+    {% else %}
+    <meta itemprop="description" content="{{ page.summary|striptags|escape|truncate(150) }}"/>
+    {% endif %}
+    {% if OPEN_GRAPH_IMAGE or page.image %}
+    <meta itemprop="image" content="{{ SITEURL }}{% if page.image %}{{ page.image }}{% else %}{{ OPEN_GRAPH_IMAGE }}{% endif %}"/>
+    {% endif %}
+
+    <!-- article meta -->
+    <meta property="article:author" content="{{ page.author }}"/>
+
+    <!-- General purpose -->
+    {% if page.description %}
+    <meta name="description" content="{{ page.description|striptags|escape }}"/>
+    {% else %}
+    <meta name="description" content="{{ page.summary|striptags|escape|truncate(150) }}"/>
+    {% endif %}
+{% endblock %}
+
+{% block breadcrumbs %}
+    {% if DISPLAY_BREADCRUMBS %}
+    <div>
+    <ol class="breadcrumb">
+        <li>
+            <span itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+            <a href="{{ SITEURL }}" title="{{ SITENAME }}" itemprop="url">
+                <i class="fa fa-home fa-lg"></i>
+                <span itemprop="title" class="hidden">{{ DEFAULT_LANG }}</span>
+            </a>
+            </span>
+        </li>
+        <li class="active">
+            <span itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+            <a href="#" title="{{ page.title }}" itemprop="url">
+                <span itemprop="title">{{ page.title }}</span>
+            </a>
+            </span>
+        </li>
+    </ol>
+    </div>
+    {% endif %}
+{% endblock %}
+
+{% block content %}
+    <section id="content" class="body">
+        <h1 class="entry-title">{{ page.title }}</h1>
+        {% import 'includes/translations.html' as translations with context %}
+        {{ translations.translations_for(page) }}
+        {% if PDF_PROCESSOR %}
+            <a href="{{ SITEURL }}/pdf/{{ page.slug }}.pdf">
+                get the pdf
+            </a>
+        {% endif %}
+        <div class="entry-content">
+            {% if SHAREHOLIC_PAGE_CONTENT_POSITION in ('both', 'before') %}
+            {% include 'includes/shareholic-share.html' %}
+            {% endif %}
+            {{ page.content }}
+            {% if SHAREHOLIC_PAGE_CONTENT_POSITION in ('both', 'after') %}
+            {% include 'includes/shareholic-share.html' %}
+            {% endif %}
+        </div>
+        {% if PAGE_ADSENSE is defined %}
+        <div class="adsense">
+            {{ PAGE_ADSENSE  }}
+        </div>
+        {% endif %}
+
+        {% if page.comments != "closed" %}
+            {% include 'includes/comments.html' %}
+        {% endif %}
+    </section>
+{% endblock %}

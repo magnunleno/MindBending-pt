@@ -1,0 +1,91 @@
+{% set CONTEXT = 'tags' %}
+{% extends "base.html" %}
+
+{% block title %}Tags | {{ SITENAME }}{% endblock %}
+
+{% block breadcrumbs %}
+    {% if DISPLAY_BREADCRUMBS %}
+    <div>
+        <ol class="breadcrumb">
+            <li>
+                <span itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+                <a href="{{ SITEURL }}" title="{{ SITENAME }}" itemprop="url">
+                    <i class="fa fa-home fa-lg"></i>
+                    <span itemprop="title" class="hidden">{{ DEFAULT_LANG }}</span>
+                </a>
+                </span>
+            </li>
+            <li class="active">
+                <span itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <a href="#" title="Tags" itemprop="url">
+                    <span itemprop="title">Tags</span>
+                </a>
+                </span>
+            </li>
+        </ol>
+    </div>
+    {% endif %}
+{% endblock %}
+
+{% block content %}
+    <section id="tags">
+        <article>
+            <h1>Tags for {{ SITENAME }}</h1>
+            <div class="col-md-6 col-md-offset-6" id="tag-search">
+                <form class="form-search">
+                    <div class="input-group ">
+                        <span class="input-group-addon"><i class="fa fa-search"></i></span>
+                        <input type="text" class="form-control filterinput" placeholder="Find a tag">
+                    </div>
+                </form>
+            </div>
+
+            <ul class="list-group list-inline" id="all-tags">
+                {%- for tag, articles in tags|sort %}
+                    <li class="list-group-item">
+                        <span class="label label-default">
+                            <a class="with-tooltip" href="{{ SITEURL }}/{{ tag.url }}" data-placement="top" data-toggle="tooltip" data-original-title="{{ articles|count }} article(s)">{{ tag|lower }}</a>
+                    </span>
+                    </li>
+                {% endfor %}
+            </div>
+        </article>
+    </section>
+{% endblock %}
+
+{% block script %}
+<script type="text/javascript">
+    (function ($) {
+        // custom css expression for a case-insensitive contains()
+        jQuery.expr[':'].Contains = function(a,i,m){
+            return (a.textContent || a.innerText || "").toUpperCase().indexOf(m[3].toUpperCase())>=0;
+        };
+
+        function listFilter() {
+
+            $('.filterinput')
+            .change( function () {
+                var filter = $(this).val();
+                if(filter) {
+                    // this finds all links in a list that contain the input,
+                    // and hide the ones not containing the input while showing the ones that do
+                    $('#all-tags').find("a:not(:Contains(" + filter + "))").parent().parent().hide();
+                    $('#all-tags').find("a:Contains(" + filter + ")").parent().parent().show();
+                } else {
+                    $('#all-tags').find("li").show();
+                }
+                return false;
+            })
+            .keyup( function () {
+                // fire the above change event after every letter
+                $(this).change();
+            });
+        }
+
+        //ondomready
+        $(function () {
+            listFilter($());
+        });
+    }(jQuery));
+</script>
+{% endblock %}

@@ -1,0 +1,36 @@
+{% set CONTEXT = 'series' %}
+{% extends "index.html" %}
+
+{% block title %}{{ TITLE }} | {{ SITENAME }}{% endblock %}
+
+{% block breadcrumbs %}
+    {% if DISPLAY_BREADCRUMBS %}
+    <div>
+        <ol class="breadcrumb">
+            <li>
+                <span itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+                <a href="{{ SITEURL }}" title="{{ SITENAME }}" itemprop="url">
+                    <i class="fa fa-home fa-lg"></i>
+                    <span itemprop="title" class="hidden">{{ DEFAULT_LANG }}</span>
+                </a>
+                </span>
+            </li>
+            <li class="active">
+                <span itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+                <a href="" title="Series" itemprop="url">
+                    <span itemprop="title">Series</span>
+                </a>
+                </span>
+            </li>
+            <li class="active">
+                <span itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <a href="#" title="{{ TITLE }}" itemprop="url">
+                        <span itemprop="title">{{ TITLE }}</span>
+                </a>
+                </span>
+            </li>
+        </ol>
+    </div>
+    {% endif %}
+{% endblock %}
+

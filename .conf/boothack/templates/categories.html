@@ -1,0 +1,54 @@
+{% set CONTEXT = 'categories' %}
+{% extends "base.html" %}
+{% block title %}Categories | {{ SITENAME }}{% endblock %}
+
+{% block breadcrumbs %}
+    {% if DISPLAY_BREADCRUMBS %}
+    <div>
+        <ol class="breadcrumb">
+            <li>
+                <span itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+                <a href="{{ SITEURL }}" title="{{ SITENAME }}" itemprop="url">
+                    <i class="fa fa-home fa-lg"></i>
+                    <span itemprop="title" class="hidden">{{ DEFAULT_LANG }}</span>
+                </a>
+                </span>
+            </li>
+            <li class="active">
+                <span itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+                <a href="#" title="Categories" itemprop="url">
+                    <span itemprop="title">Categories</span>
+                </a>
+                </span>
+            </li>
+        </ol>
+    </div>
+    {% endif %}
+{% endblock %}
+
+{% block content %}
+    <section id="categories">
+        <article>
+            <h1>All Categories for {{ SITENAME }}</h1>
+            <div class="panel-group" id="accordion">
+                {% for category, articles in categories %}
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse-{{category.slug}}">{{ category }} <span class="badge pull-right">{{ articles|count }}</span></a>
+                        </h4>
+                    </div>
+                    <div id="collapse-{{category.slug}}" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            {% for article in articles %}
+                            <p><span class="categories-timestamp"><time datetime="{{ article.date.isoformat() }}">{{ article.locale_date }}</time></span> <a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></p>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+
+        </article>
+    </section>
+{% endblock %}

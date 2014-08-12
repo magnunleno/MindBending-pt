@@ -1,0 +1,20 @@
+<li class="list-group-item">
+    <a href="{{ SITEURL }}/{{ CATEGORIES_URL|default("categories") }}">
+        <h4>{% if not IN_CONDENSED_SIDEBAR %}<i class="fa fa-folder-open fa-lg pull-{% if SIDEBAR_POSITION == 'left' %}right{% else %}left{% endif %}"></i>{% endif %}Categories</h4>
+    </a>
+    <ul class="list-group" id="categories">
+    {% for cat, cat_art in categories %}
+        <li class="list-group-item">
+        <a class="with-tooltip" href="{{ SITEURL }}/{{ cat.url }}" data-placement="top" data-toggle="tooltip" data-original-title="{{ cat_art|count }} article(s)">
+        {% if ARTICLE_CATEGORY_IN_SIDEBAR and article and cat != article.category %}
+            <span class="text-muted">
+        {% endif %}
+            {{ cat }}
+        {% if ARTICLE_CATEGORY_IN_SIDEBAR and article and cat != article.category %}
+            </span>
+        {% endif %}
+            </a>
+        </li>
+    {% endfor %}
+    </ul>
+</li>    

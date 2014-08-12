@@ -1,0 +1,20 @@
+<section class="well well-sm author-bio">
+    <a href="{{ SITEURL }}/{{ author.url }}" title="{{ author }}">
+        <img class="pull-left" src="{% if _author.avatar %}{{ SITEURL }}{{ _author.avatar }}{% else %}http://placehold.it/120x120&text={{ author.name }} avatar{% endif %}" alt="{{ author.name }}">
+    </a>
+    <div class="author-bio-text">
+        <p><strong>{{ author.name }}</strong></p>
+        <p>{% if _author.bio %}{{ _author.bio }}{% else %}No author bio...{% endif %}</p>
+        {% if _author.links %}
+            <p>
+            {% for title,link in _author.links %}
+            <a href="{{ link }}" title="{{ title }}" target="_blank">{{ title  }}</a>
+                {% if not loop.last %}
+                    ·
+                {% endif %}
+            {% endfor %}
+            </p>
+        {% endif %}
+    </div>
+</section>
+

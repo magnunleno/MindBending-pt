@@ -1,0 +1,64 @@
+{% if SITE_BANNER_ELEMENTS is not defined %}
+    {% set SITE_BANNER_ELEMENTS = [] %}
+{% endif %}
+
+{% if 'all' in SITE_BANNER_ELEMENTS %}
+    {% set SITE_BANNER_ELEMENTS = ['logo', 'name', 'links', 'search'] %}
+{% endif %}
+
+
+{% if SITE_BANNER_ELEMENTS %}
+<div id="site-banner" style="background-color: {% if SITE_BANNER_BACKGROUND_COLOR %}{{ SITE_BANNER_BACKGROUND_COLOR }}{% endif %}; {% if SITE_BANNER_BACKGROUND_IMAGE %}background-image: url('{{ SITE_BANNER_BACKGROUND_IMAGE }}'){% endif %}">
+        <div id="site-banner-brand">
+            <div>
+                {% if 'logo' in SITE_BANNER_ELEMENTS %}
+                <a href="{{ SITEURL }}"><img src="{{ SITEURL }}/{{ SITELOGO }}" alt="{{ SITENAME }}" class="img-circle banner-brand"></a>
+                {% endif %}
+                {% if 'name' in SITE_BANNER_ELEMENTS %}
+                <a href="{{ SITEURL }}"><h1 class="center-block">{{ SITENAME }}</h1></a>
+                {% endif %}
+            </div>
+
+            {% if 'social' in SITE_BANNER_ELEMENTS %}
+                <div id="social-banner">
+                    <ul class="list-group list-inline">
+                        {% for name, link in SOCIAL %}
+                            <li class="list-group-item">
+                                <a class="navbar-link social-nav-link" href="{{ link }}"><i class="fa fa-{{ name|lower|replace('+','-plus') }} fa-lg"></i></a>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            {% endif %}
+
+            {% if 'links' in SITE_BANNER_ELEMENTS %}
+            <div id="site-links-side">
+                <ul class="list-group list-inline">
+                    {% for name, link in SITE_LINKS %}
+                    <li class="list-group-item tag-8">
+                    <span class="label label-default">
+                        <a href="{{ SITEURL }}/{{ link }}">{{ name }}</a>
+                    </span>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+            {% endif %}
+
+            {% if 'search' in SITE_BANNER_ELEMENTS and GOOGLE_CSE_ID %}
+            <div id="site-search-banner">
+                <form id="cse-search-box" role="search" action="http://google.com/cse">
+                    <div class="input-group">
+                        <input type="hidden" name="cx" value="{{ GOOGLE_CSE_ID }}" />
+                        <input type="hidden" name="ie" value="UTF-8" />
+                        <input type="text" class="form-control" placeholder="Search" name="q" id="srch-term">
+                        <div class="input-group-btn">
+                            <button class="btn btn-default" name="sa" value="search" type="submit"><i class="fa fa-search"></i></button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            {% endif %}
+        </div>
+    </div>
+{% endif %}

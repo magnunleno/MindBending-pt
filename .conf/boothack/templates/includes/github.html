@@ -1,0 +1,10 @@
+{% if GITHUB_USER %}
+<li class="list-group-item"><h4><i class="fa fa-github fa-lg pull-{% if SIDEBAR_POSITION == 'left' %}right{% else %}left{% endif %}"></i>GitHub Repos</h4>
+        <div id="gh_repos">
+            <p class="list-group-item">Status updating...</p>
+        </div>
+        {% if GITHUB_SHOW_USER_LINK is defined %}
+            <a href="https://github.com/{{ GITHUB_USER }}">@{{ GITHUB_USER }}</a> on GitHub
+        {% endif %}
+    </li>
+{% endif %}

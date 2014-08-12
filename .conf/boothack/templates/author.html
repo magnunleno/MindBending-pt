@@ -1,0 +1,62 @@
+{% set CONTEXT = 'author' %}
+{% extends "index.html" %}
+
+{% block title %}Articles by {{ author }} | {{ SITENAME }}{% endblock %}
+
+{% block breadcrumbs %}
+    {% if DISPLAY_BREADCRUMBS %}
+    <div>
+        <ol class="breadcrumb">
+            <li>
+                <span itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+                <a href="{{ SITEURL }}" title="{{ SITENAME }}" itemprop="url">
+                    <i class="fa fa-home fa-lg"></i>
+                    <span itemprop="title" class="hidden">{{ DEFAULT_LANG }}</span>
+                </a>
+                </span>
+            </li>
+            <li>
+                <span itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+                <a href="{{ SITEURL }}/{{ AUTHORS_URL|default('authors.html') }}" title="Authors" itemprop="url">
+                    <span itemprop="title">Authors</span>
+                </a>
+                </span>
+            </li>
+            <li class="active">
+                <span itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <a href="#" title="{{ AUTHOR }}" itemprop="url">
+                        <span itemprop="title">{{ AUTHOR }}</span>
+                </a>
+                </span>
+            </li>
+        </ol>
+    </div>
+    {% endif %}
+{% endblock %}
+
+{% block content %}
+    {% if AUTHORS is defined and author.name in AUTHORS %}
+        {% set _author = AUTHORS[author.name] %}
+        {% include 'includes/author-bio.html' %}
+    {% endif %}
+    <h1 class="hidden">Articles by {{ author.name }}</h1>
+    {% for article in (articles_page.object_list if articles_page else articles) %}
+        <article>
+            {% if article.image %}
+                <div class="figure figure-summary pull-left">
+                    <a href="{{ SITEURL }}/{{ article.url }}" class="reference external image-reference"><img src="{{ SITEURL }}{{ article.image }}" alt="{{ article.title|striptags|e }}"></a>
+                </div>
+            {% endif %}
+            <header>
+                <h2><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h2>
+            </header>
+
+            <div class="summary">
+            {% if article.description %}{{ article.description }}{% else %}{{ article.summary|striptags|truncate(150) }}{% endif %}
+            </div>
+            <a id="more" class="btn btn-primary btn-xs pull-right" href="{{ SITEURL }}/{{ article.url }}">More <i class="fa fa-long-arrow-right"></i></a>
+        </article>
+    {% endfor %}
+
+    {% include 'includes/pagination.html' %}
+{% endblock %}

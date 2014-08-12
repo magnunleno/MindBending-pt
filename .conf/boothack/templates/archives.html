@@ -1,0 +1,79 @@
+{% set CONTEXT = 'archives' %}
+{% extends "base.html" %}
+{% block title %}Archives | {{ SITENAME }}{% endblock %}
+
+{% block seo %}
+    <!-- OpenGraph -->
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="{{ SITENAME }} archives"/>
+    <meta property="og:url" content="{{ SITEURL }}/{{ output_file }}"/>
+    <meta property="og:site_name" content="{{ SITENAME }}"/>
+    <meta property="og:description" content="{{ SITENAME }} archives"/>
+    {% if OPEN_GRAPH_IMAGE %}
+    <meta property="og:image" content="{{ SITEURL }}{{ OPEN_GRAPH_IMAGE }}"/>
+    {% endif %}
+
+    <!-- General Purpose -->
+    {% if SITEDESCRIPTION %}
+    <meta name="description" content="{{ SITENAME }} archives"/>
+    {% endif %}
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@mind_bend" />
+    <meta name="twitter:creator" content="@mind_bend" />
+    <meta name="twitter:domain" content="mindbending.org" />
+{% endblock %}
+
+{% block breadcrumbs %}
+    {% if DISPLAY_BREADCRUMBS %}
+    <div>
+        <ol class="breadcrumb">
+            <li>
+                <span itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+                <a href="{{ SITEURL }}" title="{{ SITENAME }}" itemprop="url">
+                    <i class="fa fa-home fa-lg"></i>
+                    <span itemprop="title" class="hidden">{{ DEFAULT_LANG }}</span>
+                </a>
+                </span>
+            </li>
+            <li class="active">
+                <span itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+                <a href="#" title="Archives" itemprop="url">
+                    <span itemprop="title">Archives</span>
+                </a>
+                </span>
+            </li>
+        </ol>
+    </div>
+    {% endif %}
+{% endblock %}
+
+{#
+    This Archive style is inspired by Daker:
+        https://github.com/daker/blog/blob/master/archives/index.html
+#}
+{% block content %}
+<section id="content">
+    <section class="timeline-wrapper" id="yier-end">
+        <h2>Now</h2>
+    </section>
+    {% for year, year_articles in articles|groupby('date.year')|sort(reverse=True) %}
+    <section class="timeline-wrapper" id="year{{ year }}">
+            <ul class="timeline">
+                {% for month, articles in year_articles|groupby('date.month')|sort(reverse=True) %}
+                <li>
+                    <h3>{{ articles[0].date.strftime("%B") }}</h3>
+                    {% for article in articles %}
+                    <span>
+                        <a href="{{ SITEURL }}/{{ article.url }}" title="">{{ article.title }}</a>
+                    </span>
+                    {% endfor %} {# end of post in article #}
+                </li>
+                {% endfor %} {# end of month, article in archive #}
+            </ul>
+        <h2>{{ year }}</h2>
+        </section>
+    {% endfor %}
+</section>
+{% endblock %}

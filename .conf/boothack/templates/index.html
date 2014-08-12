@@ -1,0 +1,35 @@
+{% if CONTEXT is not defined %}
+    {% set CONTEXT = 'index' %}
+{% endif %}
+{% extends "base.html" %}
+{% block content %}
+    {% if articles %}
+        {% for article in (articles_page.object_list if articles_page else articles) %}
+            <article>
+                <header class="page-header">
+                    <h2><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title|striptags }}</a></h2>
+                    {% include 'includes/article_info.html' %}
+                </header>
+                    <div class="entry-content">
+                    {% if SHAREHOLIC_INDEX_CONTENT_POSITION in ('both', 'before') %}
+                    {% include 'includes/shareholic-share-index.html' %}
+                    {% endif %}
+                    {{ article.summary|replace("<html>","")|replace("<body>","")|replace("</html>","")|replace("</body>","") }}
+                    {% if SHAREHOLIC_INDEX_CONTENT_POSITION in ('both', 'after') %}
+                    {% include 'includes/shareholic-share-index.html' %}
+                    {% endif %}
+                    </div>
+                    <div>
+                        <a id="more" class="btn btn-primary btn-xs pull-right" href="{{ SITEURL }}/{{ article.url }}">More <i class="fa fa-long-arrow-right"></i></a>
+                    </div>
+            </article>
+            {% if loop.index%3 == 2 and INDEX_ADSENSE is defined %}
+                <div class="adsense">
+                {{ INDEX_ADSENSE }}
+                </div>
+            {% endif %}
+        {% endfor %}
+    {% endif %}
+
+    {% include 'includes/pagination.html' %}
+{% endblock content %}

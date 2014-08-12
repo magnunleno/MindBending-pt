@@ -1,0 +1,27 @@
+{% if CONDENSED_SIDEBAR_ITEMS is not defined or 'all' in CONDENSED_SIDEBAR_ITEMS %}
+    {% set CONDENSED_SIDEBAR_ITEMS = ['categories', 'tagcloud', 'recent'] %}
+{% endif %}
+
+{% set CONDENSED_SIDEBAR_TITLES = {'categories': 'Categories', 'tagcloud': 'Tags', 'recent': 'Recent Articles'} %}
+{% set CONDENSED_SIDEBAR_ICONS = {'categories': 'fa-folder-open', 'tagcloud': 'fa-tags', 'recent': 'fa-clock-o'} %}
+{% set CONDENSED_SIDEBAR_MAP = {'categories': 'sidebar/categories.html', 'tagcloud': 'sidebar/tagcloud.html', 'recent': 'sidebar/recent-posts.html' } %}
+{% set IN_CONDENSED_SIDEBAR = True %}
+
+<div>
+    <ul class="nav nav-tabs nav-justified">
+        {% for element in CONDENSED_SIDEBAR_ITEMS %}
+        <li class="{% if loop.first %}active{% endif %}">
+        <a data-toggle="tab" href="#{{ element }}" title="{{ CONDENSED_SIDEBAR_TITLES[element] }}">
+            <i class="fa {{ CONDENSED_SIDEBAR_ICONS[element] }} fa-lg"></i>
+        </a>
+        </li>
+        {% endfor %}
+    </ul>
+    <div class="tab-content" id="myTabContent">
+        {% for element in CONDENSED_SIDEBAR_ITEMS %}
+        <div id="{{ element }}" class="tab-pane fade {% if loop.first %}active in{% endif %}">
+            {% include CONDENSED_SIDEBAR_MAP[element] %}
+        </div>
+        {% endfor %}
+    </div>
+</div>
