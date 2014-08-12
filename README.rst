@@ -32,6 +32,8 @@ Licensa
 
 Todos os **artigos** do Mind Bending Blog estão sob a licença `Creative Commons Attribution-ShareAlike 4.0`_ International (CC BY-SA 4.0).
 
+Uma cópia da licença está disponível no arquivo LICENSE.
+
 .. _Mind Bending: http://mindbending.org/pt
 .. _reStructured Text: http://docutils.sourceforge.net/rst.html
 .. _Pelican: http://blog.getpelican.com/
