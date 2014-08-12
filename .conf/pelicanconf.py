@@ -123,7 +123,7 @@ CATEGORY_FEED_ATOM = 'feeds/%s.atom'
 # }}}
 
 #### Plugins  ############################################# {{{
-PLUGIN_PATHS = ['./.conf/plugins']
+PLUGIN_PATHS = ['./plugins']
 PLUGINS = [
         'better_figures_and_images',
         'pelican-youtube',
@@ -138,7 +138,7 @@ RESPONSIVE_IMAGES = True
 
 #### Theme settings ####################################### {{{
 JINJA_EXTENSIONS = ['jinja2.ext.do']
-THEME = "./.conf/boothack"
+THEME = "./boothack"
 BOOTSTRAP_THEME = 'readable'
 
 DISPLAY_CATEGORIES_ON_MENU = False
