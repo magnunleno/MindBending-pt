@@ -43,6 +43,7 @@ Todos os **artigos** do Mind Bending Blog estão sob a licença `Creative Common
 Uma cópia da licença está disponível no arquivo LICENSE.
 
 .. _Mind Bending: http://mindbending.org/pt
+.. _esta documentação: https://github.com/magnunleno/MindBending-pt/blob/master/INSTALLING.rst
 .. _reStructured Text: http://docutils.sourceforge.net/rst.html
 .. _Pelican: http://blog.getpelican.com/
 .. _Creative Commons Attribution-ShareAlike 4.0: http://creativecommons.org/licenses/by-sa/4.0/
