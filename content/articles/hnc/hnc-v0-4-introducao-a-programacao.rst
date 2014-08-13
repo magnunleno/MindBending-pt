@@ -180,7 +180,7 @@ Links
 - `Criaram uma linguagem de programação inspirada em Arnold Schwarzenegger`_;
 - `Scicast sobre Orientação a Objeto`_;
 - `Hello World em diversas linguagens`_.
-
+- `Curto Circuito Podcast - Aprendizagem e Programação`_
 
 Trilha Sonora
 =============
@@ -236,3 +236,4 @@ Album "Dirty Deeds Done Dirt Cheap" (1976)
 .. _Criaram uma linguagem de programação inspirada em Arnold Schwarzenegger: http://gizmodo.uol.com.br/programacao-schwarzenegger/
 .. _Scicast sobre Orientação a Objeto: http://www.scicast.com.br/scicast-032-programacao-orientada-a-objetos/
 .. _Hello World em diversas linguagens: https://github.com/leachim6/hello-world
+.. _Curto Circuito Podcast: http://www.curtocircuito.cc/aprendizagem-e-programacao/
