@@ -68,7 +68,7 @@ Versões gratuitas de diversos softwares
         Dada a filosofia do software livre/open source, a maioria das aplicações para GNU/Linux são gratuitas, e muitas possuem qualidades profissionais.
 Softwares profissionais:
         Alguns exemplos de softwares de qualidade profissional presente no GNU/Linux: Blender, Lightworks, Autodesk Maya, Inkscape, Matlab e GIMP
-Repositórios 
+Repositórios
         Os repositórios do GNU/Linux garantem a facilidade de atualização de todos os softwares, além de centralizá-los e garantir que o software distribuído é conhecido e seguro. Além disso os repositórios (dependendo da distribuição) chegam a ter de 40 a 50 mil pacotes.
 Excelente para desenvolvedores
         Utilizar GNU/Linux é excelente para desenvolvedores, seja pelas diversas ferramentas, bibliotecas, IDEs ou pelo simples fato que você (muito provavelmente) está desenvolvendo uma aplicação para ser executada em um servidor GNU/Linux.
@@ -89,13 +89,13 @@ Migre também
 
 E aí? Depois de tudo isso você ainda está usando Windows? Migre para o GNU/Linux também! E se seu argumento de defesa é que você só aprendeu a utilizar o Windows e ninguém nunca te apresentou outra coisa vou citar Neil Peart (baterista do Rush): "*If you choose not to choose, you still have made a choice*". Em uma tradução livre: "Se você escolhe não escolher, ainda assim você tomou uma decisão". Ou seja, você é o único responsável!
 
-Por fim, o Darlido deixou a seguinte frase que diz muito sobre a comunidade de usuários de software livre:
+Por fim, o Darlildo deixou a seguinte frase que diz muito sobre a comunidade de usuários de software livre:
 
-        Há três caminhos para o fracasso: 
+        Há três caminhos para o fracasso:
 
-        não ensinar o que se sabe, 
+        não ensinar o que se sabe,
 
-        não praticar o que se ensina, 
+        não praticar o que se ensina,
 
         e não perguntar o que se ignora.
 
@@ -165,6 +165,6 @@ Magic (1997)
 .. _União Europeia - 1.14 Bilhões de Dolares: 1.14 Bilhões de Dolares: http://ec.europa.eu/enterprise/sectors/ict/files/2006-11-20-flossimpact_en.pdf
 .. _Linux Foundation -  1.4 Bilhões: http://www.linuxfoundation.org/sites/main/files/publications/estimatinglinux.pdf
 .. _Palestra de Introdução ao Inkscape (cadunico fodovisk): http://vimeo.com/33317461
-.. _Evento de SL coordenado pelo Darlildo: http://www.comsolid.org/ - 
+.. _Evento de SL coordenado pelo Darlildo: http://www.comsolid.org/
 .. _"Ataque" a GNU/Linux via Web: http://thejh.net/misc/website-terminal-copy-paste
 .. _Linux sucks: https://www.youtube.com/watch?v=5pOxlazS3zs
