@@ -87,7 +87,7 @@ Não existem jogos para GNU/Linux
 Migre também
 ------------
 
-E aí? Depois de tudo isso você ainda está usando Windows? Migre para o GNU/Linux também! E se seu argumento de defesa é que você só aprendeu a utilizar o Windows e ninguém nunca te apresentou outra coisa vou citar Neil Peart (baterista do Rush): "*If you choose not to choose, you still have made a choice*". Em uma tradução livre: "Se você escolhe não escolher, você tomou já tomou uma decisão". Ou seja, você é o único responsável!
+E aí? Depois de tudo isso você ainda está usando Windows? Migre para o GNU/Linux também! E se seu argumento de defesa é que você só aprendeu a utilizar o Windows e ninguém nunca te apresentou outra coisa vou citar Neil Peart (baterista do Rush): "*If you choose not to choose, you still have made a choice*". Em uma tradução livre: "Se você escolhe não escolher, ainda assim você tomou uma decisão". Ou seja, você é o único responsável!
 
 Por fim, o Darlido deixou a seguinte frase que diz muito sobre a comunidade de usuários de software livre:
 
