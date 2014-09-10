@@ -4,7 +4,7 @@ Vídeo 20 Anos de Linux: Linux Foundation e Microsoft
 :category: Linux
 :tags: linux, microsoft, video
 :image: /images/linux-foundation-logo.png
- :description: Foi lançado o vídeo de comemoração dos 20 anos do kernel Linux, entitulado de 'The Story of Linux'.
+:description: Foi lançado o vídeo de comemoração dos 20 anos do kernel Linux, entitulado de 'The Story of Linux'.
 
 Em Abril deste ano a `Linux Foundation`_ anunciou o concurso de vídeos para comemorar o aniversário de 20 anos do sistema operacional GNU/Linux.
 
