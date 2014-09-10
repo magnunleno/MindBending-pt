@@ -155,7 +155,7 @@ Magic (1997)
 
 .. _Linux CK: http://users.on.net/~ckolivas/kernel/
 .. _OBS (Open Build Service): http://software.opensuse.org/131/en
-.. _AUR (Arch Linux): AUR (arch): https://aur.archlinux.org/
+.. _AUR (Arch Linux): https://aur.archlinux.org/
 .. _Fedora People: https://fedorapeople.org/
 .. _Launchpad: https://launchpad.net/
 .. _mais de 600 jogos pra GNU/Linux: http://www.phoronix.com/scan.php?page=news_item&px=MTc1NDI
