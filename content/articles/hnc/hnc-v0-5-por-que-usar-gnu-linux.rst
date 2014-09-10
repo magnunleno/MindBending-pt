@@ -107,7 +107,6 @@ Links
 - `Reembolso do Windows 1`_;
 - `Reembolso do Windows 2`_;
 - `Reembolso do Windows 3`_;
-- `Reembolso do Windows 4`_;
 - Estimativa de Custo do Kernel Linus:
 
   - `União Europeia - 1.14 Bilhões de Dolares`_;
@@ -161,8 +160,7 @@ Magic (1997)
 .. _mais de 600 jogos pra GNU/Linux: http://www.phoronix.com/scan.php?page=news_item&px=MTc1NDI
 .. _Reembolso do Windows 1: http://maicon.strey.nom.br/blog/2014/01/23/reembolso-dell/
 .. _Reembolso do Windows 2: http://hacklab.com.br/2012/10/02/finalmente-a-dell-nos-reembolsa-pelos-windows-que-nao-usamos/
-.. _Reembolso do Windows 3: http://maicon.strey.nom.br/blog/2014/01/23/reembolso-dell/
-.. _Reembolso do Windows 4: http://corporate.canaltech.com.br/dica/windows/Comprou-PC-novo-e-nao-vai-usar-o-Windows-que-veio-instalado-Peca-seu-reembolso/
+.. _Reembolso do Windows 3: http://corporate.canaltech.com.br/dica/windows/Comprou-PC-novo-e-nao-vai-usar-o-Windows-que-veio-instalado-Peca-seu-reembolso/
 .. _Inkscape redesign: http://bassultra.deviantart.com/art/Inkscape-Redesign-345519518
 .. _União Europeia - 1.14 Bilhões de Dolares: 1.14 Bilhões de Dolares: http://ec.europa.eu/enterprise/sectors/ict/files/2006-11-20-flossimpact_en.pdf
 .. _Linux Foundation -  1.4 Bilhões: http://www.linuxfoundation.org/sites/main/files/publications/estimatinglinux.pdf
