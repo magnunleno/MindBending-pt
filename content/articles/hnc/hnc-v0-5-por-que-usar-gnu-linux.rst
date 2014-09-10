@@ -15,7 +15,7 @@ Hack 'n' Cast v0.5 - Por Que Usar GNU/Linux
         :alt: Hack 'n' Cast v0.5 - Por Que User GNU/Linux
         :align: center
 
-Sejam todos bem vindos a mais um episódio do `Hack 'n' Cast`_! Hoje contamos com a presença de dois convidados ilustres que (de última hora) aceitaram o convite para nos auxiliar nesse episódio: `Darlildo Lima`_ (`GitHub`_ e `blog`_) e `Thiago Perrotta`_.
+Sejam todos bem vindos a mais um episódio do `Hack 'n' Cast`_! Hoje contamos com a presença de dois convidados ilustres que (de última hora) aceitaram o convite para nos auxiliar nesse episódio: `Darlildo Lima`_ (`mad3linux`_) e `Thiago Perrotta`_ (`blog`_).
 
 Inicialmente este episódio era voltado para explicar algumas características do sistema GNU/Linux, mas como todos se empolgaram com o assunto, não conseguimos sair do tópico de vantagens e desvantagens. Acreditem, não cobrimos nem 10% da pauta que escrevemos. Aliando isso ao fato do convite de última hora aos convidados, este episódio fugiu um pouco ao padrão que vínhamos adotando. Curiosamente este foi um episódio muito sério...
 
@@ -149,9 +149,9 @@ Magic (1997)
 .. _Hack 'n' Cast: /pt/category/hack-n-cast
 
 .. _Thiago Perrotta: http://thiagoperrotta.wordpress.com
-.. _GitHub: http://thiagowfx.github.io
+.. _blog: http://thiagowfx.github.io
 .. _Darlildo Lima: https://twitter.com/darlildo
-.. _blog: http://www.mad3linux.org/
+.. _mad3linux: http://www.mad3linux.org/
 
 .. _Linux CK: http://users.on.net/~ckolivas/kernel/
 .. _OBS (Open Build Service): http://software.opensuse.org/131/en
