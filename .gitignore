@@ -2,3 +2,5 @@ drafts
 __pycache__
 *.pyc
 *.pyo
+output/
+.conf/cache/
