@@ -46,7 +46,7 @@ Para instalar no Fedora (e suas variantes) utilize o seguinte comando:
 
 .. code::
 
-        $ sudo yum install python3 python-setuptools python-virtualenv libxml2-devel libxslt-devel
+        $ sudo yum install python3 python3-devel python-setuptools python-virtualenv libxml2-devel libxslt-devel
 
 Para instalar no Arch Linux utilize o seguinte comando:
 
