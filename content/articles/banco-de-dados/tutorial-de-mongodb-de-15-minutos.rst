@@ -32,7 +32,7 @@ detalhes.
 .. _|image1|: {filename}/images/mongodb.png
 .. _Karl Seguin: http://openmymind.net/
 .. _disponibilizou: http://openmymind.net/2011/3/14/Side-Projects-Mongly
-.. _tutorial online de 15 minutos sobre o MongoDB: http://www.mongly.com/
+.. _tutorial online de 15 minutos sobre o MongoDB: http://mongly.openmymind.net/tutorial/index
 .. _projetos comerciais: http://www.mongodb.org/display/DOCS/Production+Deployments
 .. _site do projeto: http://www.mongodb.org/
 
