@@ -1,11 +1,11 @@
 Hack 'n' Cast v0.6 - Python
 ###########################
-:date: 2014-10-15 02:39
+..  :date: 2014-10-15 02:39
 :category: Hack 'n' Cast
 :tags: hack 'n' cast, podcast, beta, python, linguagem, programação, história, orientação a objetos, System of a down, databasecast, piratas da internet, zen of python
 :image: /images/hack-n-cast/v0.x/v0.6-cover-sqr.jpg
-:length: 95241035
-:duration: 98:54
+:length: 88737172
+:duration: 92:07
 :podcast: http://archive.org/download/HNC.v0.6-Python/HNC.v0.6-Python.mp3
 :podcastembed: http://archive.org/embed/HNC.v0.6-Python/HNC.v0.6-Python.mp3
 :description: Python é uma das linguagens que mais cresceram nos últimos anos. Boa parte se deve ao fato de sua simplicidade, sintaxe intuitiva e de fácil aprendizagem, mas não podemos negligenciar a grande força motriz desta linguagem, sua comunidade.
