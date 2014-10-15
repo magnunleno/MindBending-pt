@@ -1,6 +1,6 @@
 Hack 'n' Cast v0.6 - Python
 ###########################
-:date: 2014-10-15 02:39
+:date: 2014-10-15 03:00
 :category: Hack 'n' Cast
 :tags: hack 'n' cast, podcast, beta, python, linguagem, programação, história, orientação a objetos, System of a down, databasecast, piratas da internet, zen of python
 :image: /images/hack-n-cast/v0.x/v0.6-cover-sqr.jpg
