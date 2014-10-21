@@ -29,7 +29,7 @@ Posteriormente, em 1987, com o fim da linguagem ABC, Guido foi transferido para 
 
         --- Guido Van Rossum
 
-Tendo como base um códio de demonstração da linguagem ABC (abaixo) podemos ver que alguns elementos de sintaxe (e a endentação obrigatória) do Python foram fortemente inspiradas nesta linguagem.
+Tendo como base um código de demonstração da linguagem ABC (abaixo) podemos ver que alguns elementos de sintaxe (e a indentação obrigatória) do Python foram fortemente inspiradas nesta linguagem.
 
 .. code::
 
@@ -42,12 +42,12 @@ Tendo como base um códio de demonstração da linguagem ABC (abaixo) podemos ve
        RETURN collection
 
 
-Em 1989 o desenvolvimento do Python realmente teve início, nos primeiros meses de 1990 o autor já possuía uma versão mínima e operacional, pelo fim do ano de 1990 Python já era mais utilizado no CWI que a própria linguagem ABC.
+Em 1989 o desenvolvimento do Python realmente teve início, nos primeiros meses de 1990 o autor já possuía uma versão mínima e operacional, pelo fim do ano de 1990 Python já era mais utilizada no CWI que a própria linguagem ABC.
 
 Primeira *Release*
 ~~~~~~~~~~~~~~~~~~
 
-No ano de 1991 Guido foi transferido do grupo Amoeba para o grupo Multimídia. De acordo com o próprio Guido "ABC me deu a inspiração crucial para Python, o grupo Amoeba a motivação imediata e o grupo de multimídia fomentou seu crescimento". Ainda neste ano, no dia 20 de Fevereiro, foi lançada a primeira versão do Python, então denominada de v0.9.0. O anúncio foi feita no grupo de discussão (*newsgroup*) `alt.sources`_. A primeira *release* era composta de 21 partes `uuencoded`_ que juntos formavam um arquivo ``.tar``. Velhos tempos...
+No ano de 1991 Guido foi transferido do grupo Amoeba para o grupo Multimídia. De acordo com o próprio Guido "ABC me deu a inspiração crucial para Python, o grupo Amoeba a motivação imediata e o grupo de multimídia fomentou seu crescimento". Ainda neste ano, no dia 20 de Fevereiro, foi lançada a primeira versão do Python, então denominada de v0.9.0. O anúncio foi feito no grupo de discussão (*newsgroup*) `alt.sources`_. A primeira *release* era composta de 21 partes `uuencoded`_ que juntos formavam um arquivo ``.tar``. Velhos tempos...
 
 Nesta primeira versão, o Python já contava com classes, herança, tratamento de exceções, funções, sistema de módulos (empresado da linguagem Modula-3) e os tipos de dado nativos ``list``, ``dict``, ``str``, e etc.
 
@@ -119,7 +119,7 @@ Os SIGs tratavam de pesquisa, estudo e desenvolvimento de tópicos específicos 
 
 Na CNRI foram lançadas as versões 1.3 até a versão 1.5.2 e era utilizada uma licença semelhante à utilizada na CWI (baseada na licença MIT) apenas alterando o responsável para "CNRI".
 
-Em 1999, com o crescente sucesso do Python (e dado o sucesso de iniciativas como o `W3C`_ e X Consortia) a CNRI tentou criar um modelo para obter patrocínio para o desenvolvimento do Python, o `Python Consortium`_. Apesar deste modelo ter subsidiado a implementação de *strings* Unicodes e a biblioteca de expressões regulares (com o apoio da Hewlett-Packard) ele não se mostrou muito promissor e foi "fechado" pouco depois.
+Em 1999, com o crescente sucesso do Python (e dado o sucesso de iniciativas como o `W3C`_ e X Consortia) a CNRI tentou criar um modelo para obter patrocínio para o desenvolvimento da linguagem, o `Python Consortium`_. Apesar deste modelo ter subsidiado a implementação de *strings* Unicodes e a biblioteca de expressões regulares (com o apoio da Hewlett-Packard) ele não se mostrou muito promissor e foi "fechado" pouco depois.
 
 Neste período foram lançadas as seguintes versões do Python:
 
