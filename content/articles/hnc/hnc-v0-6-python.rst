@@ -423,7 +423,7 @@ Steal This Album (2002)
 .. _Sentibol: http://www.sentibol.com/
 .. _BioPython: http://biopython.org/wiki/Main_Page
 .. _Python Brochure: http://brochure.getpython.info/
-.. _Python + Haskell: https://github.com/mattgreen/hython;
+.. _Python + Haskell: https://github.com/mattgreen/hython
 .. _iPython: http://ipython.org/notebook.html
 .. _Curto Circuito Podcast: http://www.curtocircuito.cc/aprendizagem-e-programacao/
 .. _PEP8: http://legacy.python.org/dev/peps/pep-0008/
