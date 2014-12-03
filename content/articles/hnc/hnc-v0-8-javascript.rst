@@ -122,6 +122,7 @@ IDEs:
 - Atom;
 - Brackets;
 - Sublime Text, VIM & EMACS;
+- WebStorms JetBrain (Não livre, mas possui licença de estudante);
 
 Hardware:
 
