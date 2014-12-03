@@ -247,7 +247,12 @@ Livros
 - `Lista de livros gratuitos`_;
 - `JavaScript, The Good Parts`_;
 - `Secrets of the JavaScript Ninja`_;
+- `Segredos do Ninja JavaScript`_;
 - `Learning JavaScript Design Patterns`_ (Grátis para ler online);
+
+.. class:: panel-body bg-info
+
+        Na compra de qualquer livro na Novatec utilize o código **MINDBENDING** para conseguir 20% de desconto.
 
 Outros Links Citados
 --------------------
@@ -349,6 +354,7 @@ Dr. Sin II (2000)
 .. _JavaScript, The Good Parts: http://www.amazon.com/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742
 .. _Secrets of the JavaScript Ninja: http://www.amazon.com/Secrets-JavaScript-Ninja-John-Resig/dp/193398869X/
 .. _Learning JavaScript Design Patterns: http://addyosmani.com/resources/essentialjsdesignpatterns/book/ 
+.. _Segredos do Ninja JavaScript: http://novatec.com.br/livros/ninja-javascript/
 
 
 .. Social
@@ -361,10 +367,9 @@ Dr. Sin II (2000)
 .. _Pocket Casts: http://pcasts.in/hackncast
 .. _Google Groups: https://groups.google.com/forum/?hl=pt-BR#!forum/hackncast
 
-.. Fontes de Aprendizado
-
 .. Links Diversos
 .. _SIGE: https://github.com/comsolid/sige
 .. _COMSOLID: http://www.comsolid.org/
 .. _HackingnRoll: http://www.hackingnroll.com/
 .. _Emulador de Nintendo 64: https://github.com/hulkholden/n64js/
+
