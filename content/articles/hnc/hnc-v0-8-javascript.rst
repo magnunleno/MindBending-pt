@@ -255,6 +255,7 @@ Outros Links Citados
 - `SIGE`_ (Projeto do Átila);
 - `COMSOLID`_;
 - `HackingnRoll`_;
+- `Emulador de Nintendo 64`_;
 
 
 Trilha Sonora
@@ -366,3 +367,4 @@ Dr. Sin II (2000)
 .. _SIGE: https://github.com/comsolid/sige
 .. _COMSOLID: http://www.comsolid.org/
 .. _HackingnRoll: http://www.hackingnroll.com/
+.. _Emulador de Nintendo 64: https://github.com/hulkholden/n64js/
