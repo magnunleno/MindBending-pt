@@ -1,7 +1,7 @@
 Mind Bending
 ============
 
-Artigos em Portugês do Brasil para o site `Mind Bending`_.
+Artigos em Português do Brasil para o site `Mind Bending`_.
 
 Se você quiser contribuir com algum artigo ou correção sinta-se livre para enviar um Pull-request.
 
