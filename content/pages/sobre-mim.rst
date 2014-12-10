@@ -16,7 +16,7 @@ Telecomunicações e Pós-Graduado em Análise de Sistemas Orientados a Objeto, 
 que gosta de escrever sobre tecnologia, especialmente FOSS (Free Open Source
 Software) e GNU/Linux.
 
-Meu primeiro conato com o GNU/Linux foi no trabalho, ao 19 anos. Minha
+Meu primeiro contato com o GNU/Linux foi no trabalho, ao 19 anos. Minha
 empresa utilizada o GNU/Linux para os serviços de rede (FTP, Web
 Servers, Application Servers, Web Proxy, DHCP e DNS). Após isso, eu tive
 algum contato com o GNU/Linux no ambiente acadêmico, mas nada muito
