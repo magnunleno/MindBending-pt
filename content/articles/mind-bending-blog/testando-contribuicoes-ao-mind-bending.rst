@@ -98,7 +98,7 @@ Existem algumas formas de se compilar o site para testes, dependendo de como voc
 
 #. Utilizando o NGINX.
 #. Utilizando o servidor web embutido no python;
-#. Utilizando o firefox/chrome navegando via sistema de arquvios (caminhos relativos);
+#. Utilizando o firefox/chrome navegando via sistema de arquivos (caminhos relativos);
 
 **Nota:** Eu sempre uso o NGINX pois reproduz fielmente o ambiente de produção.
 
@@ -155,7 +155,7 @@ Ou faça tudo em um comando só:
 
 Em seguida acesse o site através da URL http://localhost:8000
 
-Navegando via Sistema de Arquvios (Caminhos Relativos)
+Navegando via Sistema de Arquivos (Caminhos Relativos)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Por último, temos a forma mais simples que não requer nenhum tipo de servidor (NGINX ou embutido no Python), que é acessar os arquivos compilados diretamente pelo navegador utilizando o sistema de arquivos. Mas para que isto funcione, é necessário que o site seja compilado com suporte a caminhos relativos. Para isso utilize o seguinte comando:
