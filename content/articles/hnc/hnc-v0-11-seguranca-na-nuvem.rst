@@ -66,7 +66,7 @@ Como formas de melhorar sua segurança, trazemos algumas alternativas ao Dropbox
 Mas de que adianta ter seus dados seguros se suas senhas são fracas e repetitivas, certo? Então temos aqui algumas sugestões de como melhorar suas senhas:
 
 * `Heurística para criação de senhas`_;
-* Gere sua senha via linha de comando: `openssl rand -base64 32`;
+* Gere sua senha via linha de comando: ``openssl rand -base64 32``;
 * "Gere" senhas com o `Hashapass`_;
 * Gerencie suas senhas com o `Lastpass`_;
 * Gerencie suas senhas com o `1Password`_;
