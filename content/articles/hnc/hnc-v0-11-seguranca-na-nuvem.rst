@@ -90,13 +90,16 @@ Okay, agora que você está relativamente seguro na nuvem, vamos nos manter segu
 * Windows: `BitLocker`_;
 * Linux: Nativo, pode ser habilitado durante a instalação.
 
-Demais links citados
---------------------
+Demais links
+------------
 
 * `OpenID`_;
 * `oAuth`_;
 * `Histórico de Localização do Google`_;
 * Aplicativo `Authy`_;
+* `Prism-Break`_;
+* `Hide My Ass`_;
+
 
 
 .. container:: panel-body bg-info
@@ -155,6 +158,8 @@ Demais links citados
 .. _oAuth: http://oauth.net/
 .. _Histórico de Localização do Google: https://maps.google.com/locationhistory/b/0/
 .. _Authy: https://www.authy.com/how-use-authy-google-authenticator
+.. _Hide My Ass: https://securemail.hidemyass.com/
+.. _Prism-Break: https://prism-break.org/en/
 
 .. Musicas
 .. _`Rolemusic`: http://freemusicarchive.org/music/Rolemusic/
