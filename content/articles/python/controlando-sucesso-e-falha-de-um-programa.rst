@@ -10,7 +10,7 @@ Controlando o Sucesso/Falha de Um Programa
               o registro de logs.
 
 Outro dia, em uma conversa do Gupy-DF surgir uma dúvida sobre como controlar
-o fluxo e o status de um programa. Epistem alguma formas de se realizar
+o fluxo e o status de um programa. Existem alguma formas de se realizar
 essa tarefa, cada uma com suas vantagens e desvantagens.
 
 .. image:: {filename}/images/python/zen-of-python-poster.png
