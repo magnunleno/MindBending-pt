@@ -1,4 +1,4 @@
-Hack 'n' Cast v0.13 - Hack 'n' Dropx #001
+Hack 'n' Cast v0.13 - Hack 'n' Drops #001
 #########################################
 :date: 2015-04-21 23:12
 :authors: Magnun, Ricardo, Jorge Flávio
