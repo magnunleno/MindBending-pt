@@ -8,6 +8,7 @@ Hack 'n' Cast v0.6 - Python
 :duration: 92:07
 :podcast: http://archive.org/download/HNC.v0.6-Python/HNC.v0.6-Python.mp3
 :podcastembed: http://archive.org/embed/HNC.v0.6-Python/HNC.v0.6-Python.mp3
+:podcast_old: True
 :description: Python é uma das linguagens que mais cresceram nos últimos anos. Boa parte se deve ao fato de sua simplicidade, sintaxe intuitiva e de fácil aprendizagem, mas não podemos negligenciar a grande força motriz desta linguagem, sua comunidade.
 
 Hoje no `Hack 'n' Cast`_, com a ajuda do `Eric Hideki`_ (`twitter do Eric`_), falaremos de uma das linguagens mais amadas da história, o Python é utilizado para scripts simples, programas comuns, programas para simulação científica, scripting e interligação de módulos de jogos, cálculo numérico, desenvolvimento front-end e back-end e etc.

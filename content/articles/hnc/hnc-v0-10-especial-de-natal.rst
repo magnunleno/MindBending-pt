@@ -8,6 +8,7 @@ Hack 'n' Cast v0.10 - Especial de Natal
 :duration: 89:06
 :podcast: http://archive.org/download/HNC.v0.10-Especial-de-Natal/HNC.v0.10-Especial-de-Natal.mp3
 :podcastembed: http://archive.org/embed/HNC.v0.10-Especial-de-Natal/HNC.v0.10-Especial-de-Natal.mp3
+:podcast_old: True
 :description: Então é Natal! E para comemorar essa época nos juntamos ao Grok Podcast e ao Castálio Podcast para gravarmos um episódio especial. O áudio dessa gravação foi compartilhado entre nos três para que cada um realize a sua edição e publicação da forma que lhe for conveniente.
 
 Para fechar bem o ano, nós do `Hack 'n' Cast`_ fomos convidados a participar de um episódio especial de natal! Neste episódio "comunitário" conversamos com o `Og Maciel`_ do `Castálio Podcast`_ e o `Rafael Rosa Fú`_ do `Grok Podcast`_ sobre essa vida de podcaster, onde citamos como gravamos (que hardware e técnicas utilizamos), como editamos (programas, ferramentas e técnicas) e algumas experiências obtidas.

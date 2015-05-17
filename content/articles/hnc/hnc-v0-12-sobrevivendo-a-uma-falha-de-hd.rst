@@ -9,6 +9,7 @@ Hack 'n' Cast v0.12 - Sobrevivendo a Uma Falha de HD
 :duration: 72:12
 :podcast: http://archive.org/download/HNC.v0.12-Sobrevivendo-a-Uma-Falha-de-HD/HNC.v0.12-Sobrevivendo-a-Uma-Falha-de-HD.mp3
 :podcastembed: http://archive.org/embed/HNC.v0.12-Sobrevivendo-a-Uma-Falha-de-HD/HNC.v0.12-Sobrevivendo-a-Uma-Falha-de-HD.mp3
+:podcast_old: True
 :description: Se tem algo que é certo, e que um dia vai acontecer com todos nós é a morte... de um HD, seja ela por mau uso ou por uma falha de hardware.
 
 Neste primeiro fork do `Hack 'n' Cast`_ recebemos a contribuição do `Eduardo Klosowski`_ e do `Fabio Rodriguez`_ (diretamente do `Piratas da Internet`_) contando como sobreviveram à uma falha de HD e como (utilizando uma ferramenta desenvolvida por eles) conseguiram detectar todos os arquivos perdidos e restaurá-los facilmente através de um Backup.

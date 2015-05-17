@@ -8,6 +8,7 @@ Hack 'n' Cast v0.7 - O.P.A.
 :duration: 64:38
 :podcast: http://archive.org/download/HNC.v0.7-OPA/HNC.v0.7-OPA.mp3
 :podcastembed: http://archive.org/embed/HNC.v0.7-OPA/HNC.v0.7-OPA.mp3
+:podcast_old: True
 :description: Hoje, dia 21 de Outubro, está sendo instituído o dia do podcast e, para comemorar, estamos lançando um episódio extra (e por que não especial) do Hack 'n' Cast. Como todos sabemos, ouvir podcast se torna um vício, então resolvemos criar um grupo de ajuda e apoio para os que são afligidos por este mal.
 
 Se o podcast parece estar lhe causando crises de riso, ou se a baixa produtividade por ouvi-lo chegou ao ponto de preocupá-lo um pouco, talvez lhe interesse saber algo sobre os "Ouvintes de Podcast Anônimos" (O.P.A.) e seu programa de recuperação. Depois de ouvir as considerações apresentadas neste programa, você poderá achar que O.P.A. nada tem a lhe oferecer. Nesse caso, sugerimos que mantenha a mente aberta sobre o assunto. Considere cuidadosamente seu hábito de ouvir podcast. Decida, por si mesmo, se o podcast se tornou ou não um problema em sua vida. E lembre-se de que será sempre bem-vindo entre os milhares O.P.A. que resolveram seus problemas relacionados ao podcast e agora levam uma vida "normal" no dia-a-dia. Só que não...

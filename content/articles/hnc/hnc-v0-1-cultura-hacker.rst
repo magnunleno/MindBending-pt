@@ -4,10 +4,11 @@ Hack 'n' Cast v0.1 - Cultura Hacker
 :category: Hack 'n' Cast
 :tags: hack 'n' cast, hacker, podcast, beta
 :image: /images/logos/HNC-beta.png
-:podcast: http://archive.org/download/HNC.v0.1-Cultura-Hacker/HNC.v0.1-Cultura-Hacker.mp3
 :length: 54211286
 :duration: 56:26
+:podcast: http://archive.org/download/HNC.v0.1-Cultura-Hacker/HNC.v0.1-Cultura-Hacker.mp3
 :podcastembed: https://archive.org/embed/HNC.v0.1-Cultura-Hacker/HNC.v0.1-Cultura-Hacker.mp3
+:podcast_old: True
 :description: Hackers não são criminosos cibernéticos que invadem seu computador ou roubam seus e-mails, o nome disso é cracker. Sabia que os hackers na verdade são praticamente os responsáveis pela internet, pelo sistema operacional Unix, OS X, Gnu/Linux e etc? Sabia que os hackers não se limitam apenas ao mundo da tecnologia?
 
 Sejam todos bem vindos ao primeiro episódio do **Hack 'n' Cast**! É isso aí pessoal, após muito tempo juntando ideias, convidado pessoas, perdendo participantes, levantando tópicos, esboçando logos, testando equipamentos e fazendo testes de edição, finalmente posso anunciar esse novo projeto do site Mind bending em conjunto com o Bruno Barbosa (do `Algoritmizando`_) e com o Ricardo Medeiros (nosso estagiário).

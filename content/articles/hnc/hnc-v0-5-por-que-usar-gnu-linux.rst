@@ -8,6 +8,7 @@ Hack 'n' Cast v0.5 - Por Que Usar GNU/Linux
 :duration: 84:51
 :podcast: http://archive.org/download/HNC.v0.5-Por-que-usar-gnu-linux/HNC.v0.5-Por-que-usar-gnu-linux.mp3
 :podcastembed: http://archive.org/embed/HNC.v0.5-Por-que-usar-gnu-linux/HNC.v0.5-Por-que-usar-gnu-linux.mp3
+:podcast_old: True
 :description: Hoje, com a presença de dois convidados apresentamos um episódio muito mais sóbrio sobre alguns motivos (vantagens e algumas desvantagens) para se usar GNU/Linux.
 
 .. image:: {filename}/images/hack-n-cast/v0.x/v0.5-cover-wide.png

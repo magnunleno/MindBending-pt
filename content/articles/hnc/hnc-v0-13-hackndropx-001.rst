@@ -9,6 +9,7 @@ Hack 'n' Cast v0.13 - Hack 'n' Drops #001
 :duration: 53:33
 :podcast: http://archive.org/download/HNC.v0.13-hackndrops-001/HNC.v0.13-hackndrops-001.mp3
 :podcastembed: http://archive.org/embed/HNC.v0.13-hackndrops-001/HNC.v0.13-hackndrops-001.mp3
+:podcast_old: True
 :description: Microsoft OpenSource, Netflix 8bits, detentos hackers e seu imposto de renda são assuntos hoje no Hack 'n' Cast.
 
 Neste primeiro episódio do Hack 'n' Drops (espaço do Hack 'n' Cast onde iremos falar de notícias e outros temas diversos) acompanhe os comentários mais desconexos dessa trupe de loucos composta por Magnun, Ricardo e Jorge.

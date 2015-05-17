@@ -8,6 +8,7 @@ Hack 'n' Cast - v0.3 Introdução ao GNU/Linux
 :duration: 101:03
 :podcast: http://archive.org/download/HNC.v0.3-Introducao-ao-GNU-Linux/HNC.v0.3-Introducao-ao-GNU-Linux.mp3
 :podcastembed: http://archive.org/embed/HNC.v0.3-Introducao-ao-GNU-Linux/HNC.v0.3-Introducao-ao-GNU-Linux.mp3
+:podcast_old: True
 :description: O GNU/Linux foi a mola propulsora da Internet como a conhecemos hoje e, por isso, é uma peça de tecnologia fundamental pra qualquer profissional. Hoje vamos saber um pouco de sua história, entender porquê escrevemos GNU antes de Linux e discutir um pouco sobre a disputa épica entre Linus e Tanenbaum.
 
 Olá pessoal! Na v0.3 do `Hack 'n' Cast`_ voltamos cheios de novidades! Além do `desconto nos livros da Novatec`_ agora estamos promovendo um sorteio de 2 livros (mais detalhes `aqui`_). Além disso, nesse episódio o nosso primeiro convidado, Gilson Filho, nos ajuda a falar de GNU/Linux.

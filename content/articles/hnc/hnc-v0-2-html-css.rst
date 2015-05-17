@@ -4,10 +4,11 @@ Hack 'n' Cast v0.2 - HTML & CSS
 :category: Hack 'n' Cast
 :tags: hack 'n' cast, hacker, podcast, beta, html, css, black sabbath
 :image: /images/logos/HNC-beta.png
-:podcast: http://archive.org/download/HnC.v0.2-HTML-e-CSS/HnC.v0.2-HTML-e-CSS.mp3
 :length: 60669449
 :duration: 63:07
+:podcast: http://archive.org/download/HnC.v0.2-HTML-e-CSS/HnC.v0.2-HTML-e-CSS.mp3
 :podcastembed: https://archive.org/embed/HnC.v0.2-HTML-e-CSS/HnC.v0.2-HTML-e-CSS.mp3
+:podcast_old: True
 :description: O HTML é co-responsável pela grande revolução que foi a internet. Junte-se a trupe do Hack 'n' Cast e descubra se isso é uma tecnologia, doença ou solução. E saiba porquê você deve usar um guarda-chuva ao escrever CSS.
 
 No episódio de hoje do `Hack 'n' Cast`_ voltamos com tudo e vamos falar sobre a linguagem de programação (sic!) dos verdadeiros `hackers`_, o HTML! Assim como visto na TV...

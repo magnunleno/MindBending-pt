@@ -8,6 +8,7 @@ Hack 'n' Cast v0.8 - JavaScript
 :duration: 81:05
 :podcast: http://archive.org/download/HNC.v0.8-JavaScript/HNC.v0.8-JavaScript.mp3
 :podcastembed: http://archive.org/embed/HNC.v0.8-JavaScript/HNC.v0.8-JavaScript.mp3
+:podcast_old: True
 :description: JavaScript é uma das poucas linguagens que podem ser consideradas como lingua franca, isto é, que todo programador deveria saber e que uma hora vai acabar lidando com ela.
 
 Hoje no `Hack 'n' Cast`_, com a ajuda do Diego "Boot" (|Twitter Diego|_ e |Facebook Diego|_) e do Átila Camurça (|Twitter Atila|_ e |GitHub Atila|_), falaremos de uma das linguagens utilizadas e incompreendidas, o JavaScript! Desde seu nome (que apesar da referência textual, não possui correlação com Java), áreas de aplicação e funcionamento, esta linguagem sempre foi tratada como um brinquedo ou "ferramenta menor" que serve para criar "pequenos efeitos" em sites. 
