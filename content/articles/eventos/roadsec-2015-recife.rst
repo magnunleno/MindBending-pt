@@ -4,7 +4,7 @@ ROADSEC 2015 - Recife
 :category: Eventos
 :tags: eventos, segurança, hacking, tecnologia
 :image: /images/eventos/roadsec-logo.png
-:description: Neste sábado, dia 04/07/2014, estará ocorrendo em Recife/Pernanbuco o ROADSEC, um evento de Hacking, segurança e tecnologia em geral.
+:description: Neste sábado, dia 04/07/2015, estará ocorrendo em Recife/Pernanbuco o ROADSEC, um evento de Hacking, segurança e tecnologia em geral.
 
 O ROADSEC é o maior evento de hacking, segurança e tecnologia do Brasil e conta com palestras, roadhacks, cryptorace e hackaflag, além de patrociados de peso como a Symantec, Aker e LittleBits Electronics. Neste ano ele já passou por cidades como Campo Grande, Brasília, Manaus, Fortaleza, Natal, Aracajú e Salvador, e sua próxima parada é Recife!
 
