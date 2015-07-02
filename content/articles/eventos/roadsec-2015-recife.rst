@@ -12,7 +12,7 @@ O evento ocorrerá na FBV (Faculdade Boa Viagem), Campus Imbiribeira (Rua: Jean 
 
 .. class:: panel-body bg-info
 
-O leitor/ouvinte Tulio Santos nos mandou um cupom que permite você entrer **de graça** no evento! O código é: RSPE-FR33C0D3
+Entretanto, se o evento não tiver um bom público ele pode não ir pra Recife no ano que vem. Por isso o leitor/ouvinte Tulio Santos nos mandou um cupom que permite você entrar **de graça** no evento! O código é: RSPE-FR33C0D3
 
 
 .. image:: {filename}/images/eventos/roadsec-2015.png
