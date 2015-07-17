@@ -1,7 +1,7 @@
 Hack 'n' Cast v0.12 - Sobrevivendo a Uma Falha de HD
 ####################################################
 :date: 2015-03-23 14:42
-:authors: Magnun, Ricardo, Eduardo Klosowski, Fabio Rodriguez
+:authors: Magnun
 :category: Hack 'n' Cast
 :tags: hack 'n' cast, podcast, softwares, recuperação, hash, sha1, bug report
 :image: /images/hack-n-cast/v0.x/v0.12-cover-sqr.jpg

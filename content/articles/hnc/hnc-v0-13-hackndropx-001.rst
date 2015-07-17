@@ -1,7 +1,7 @@
 Hack 'n' Cast v0.13 - Hack 'n' Drops #001
 #########################################
 :date: 2015-04-21 23:12
-:authors: Magnun, Ricardo, Jorge Flávio
+:authors: Magnun
 :category: Hack 'n' Cast
 :tags: hack 'n' cast, podcast, notícias, microsoft, netflix, irpf, jogos, expotec, evento, .net, nes, technovation challange, hacker, laptop
 :image: /images/hack-n-cast/v0.x/v0.13-cover-sqr.jpg
