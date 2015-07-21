@@ -11,7 +11,7 @@ Hack 'n' Cast v0.15 - Sistemas Embarcados - Parte 1
 :podcastembed: http://archive.org/embed/HNC.v0.15-Sistemas-Embarcados-Parte-1/HNC.v0.15-Sistemas-Embarcados-Parte-1.mp3
 :description: Todo mundo utilizou um sistema embarcado, mesmo que sem perceber. Estes sistemas são responsáveis por toda a a revolução do último século.
 
-Existe uma computação oculta no mundo, ela quase nunca é notada, é sorrateira, muito furtiva, mas faz o mundo moderno girar. Através dela, celulares tocam, brinquedos alegram, automóveis andam, aviões voam e marcapassos seguem mantendo pessoas cardíacas vivas. Esses “pequenos agentes” são de longe o maior uso da computação, e superam em muito o número de PCs, notebooks servidores e correlatos. Esses pequenos “átomos computacionais” estão por toda parte, no seu telefone, carro, relógio, bicicleta, roteador Wi-Fi e agora estão chegando no nosso vestuário. Estamos falando dos computadores projetados para trabalhar nos bastidores: os sistemas embarcados.
+Existe uma computação oculta no mundo, ela quase nunca é notada, é sorrateira, muito furtiva, mas faz o mundo moderno girar. Através dela, celulares tocam, brinquedos alegram, automóveis andam, aviões voam e marcapassos seguem mantendo pessoas cardíacas vivas. Esses “pequenos agentes” são de longe o maior uso da computação, e superam em muito o número de PCs, notebooks servidores e correlatos. Esses pequenos “átomos computacionais” estão por toda parte, no seu telefone, carro, relógio, bicicleta, roteador Wi-Fi e agora estão chegando no nosso vestuário. Estamos falando dos computadores projetados para trabalhar nos bastidores: os sistemas embarcados. (Baseado no `texto do André Delai`_)
 
 .. image:: {filename}/images/hack-n-cast/v0.x/v0.15-cover-wide.jpg
         :target: {filename}/images/hack-n-cast/v0.x/v0.15-cover-wide.jpg
@@ -91,6 +91,7 @@ Fontes de Aprendizagem
 .. _Pocket Casts: http://pcasts.in/hackncast
 .. _Google Groups: https://groups.google.com/forum/?hl=pt-BR#!forum/hackncast
 
+.. _texto do André Delai: http://www.hardware.com.br/artigos/sistemas-embarcados-computacao-invisivel/
 .. _Seminário Linux Embarcado 2015: http://www.embarcados.com.br/seminario-linux-embarcado-2015/
 .. _EdX: https://www.edx.org/course/embedded-systems-shape-world-utaustinx-ut-6-02x
 .. _Relatório 2014: http://www.embarcados.com.br/relatorio-do-estudo-sobre-o-mercado-brasileiro-de-desenvolvimento-de-sistemas-embarcados-2014/
