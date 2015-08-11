@@ -23,13 +23,13 @@ Descent no Arch Linux
 
 Esses dias encontrei meu CD do Descent 1 e resolvi testar o port (com melhoramentos) chamado `D1X-Rebirth`_. Bastou uma simples busca no Yaourt para ficar mais empolgado:
 
-.. code-block: bash
+.. code-block:: bash
 
     $ yaourt -Ss d1x
 
 Em seguida uma simples instalação:
 
-.. code-block: bash
+.. code-block:: bash
 
     $ yaourt -S d1x-rebirth
 
@@ -58,13 +58,13 @@ Meu irmão mais novo ficou impressionado com o jogo (mesmo sendo uma tecnologia 
 
 Estas dependências foram instaladas com a seguinte linhas de comando:
 
-.. code-block: bash
+.. code-block:: bash
 
     $ sudo apt-get install gcc scons libsdl1.2-dev libphysfs-dev libsdl-mixer1.2-dev libglu1-mesa-dev
 
 Após isso bastou executar os seguintes comandos para compilar e instalar o jogo D1X-Rebirth:
 
-.. code-block: bash
+.. code-block:: bash
 
     $ sudo scons && scons install
 
