@@ -7,8 +7,8 @@ Hack 'n' Cast v0.16 - Sistemas Embarcados - Parte 2
 :image: /images/hack-n-cast/v0.x/v0.16-cover-sqr.jpg
 :length: 61786112
 :duration: 63:56
-:podcast: http://archive.org/download/HNC.v0.16-Sistemas-Embarcados-Parte-1/HNC.v0.15-Sistemas-Embarcados-Parte-2.mp3
-:podcastembed: http://archive.org/embed/HNC.v0.16-Sistemas-Embarcados-Parte-1/HNC.v0.15-Sistemas-Embarcados-Parte-2.mp3
+:podcast: http://archive.org/download/HNC.v0.16-Sistemas-Embarcados-Parte-2/HNC.v0.16-Sistemas-Embarcados-Parte-2.mp3
+:podcastembed: http://archive.org/embed/HNC.v0.16-Sistemas-Embarcados-Parte-2/HNC.v0.16-Sistemas-Embarcados-Parte-2.mp3
 :description: Após entender o que é um sistema embarcado, hoje veremos um pouco sobre os tipos de sistemas embarcados que podemos utilizar (para aprendizado ou não) e um pouco sobre o possível futuro dos sistemas embarcados, incluindo uma explicação de IoT.
 
 No episódio de hoje especulamos um pouco sobre o futuro dos sistemas embarcados, passando por hardware livre, sistemas embarcados livres, IoT (Internet of Things), IoB (Internet of Bullshit), hackerspaces e discutimos um pouco algumas ferramentas/hardwares para protótipos e projetos.
