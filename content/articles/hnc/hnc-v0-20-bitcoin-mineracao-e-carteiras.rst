@@ -3,7 +3,7 @@ Hack 'n' Cast v0.20 - Bitcoin: Mineração e Carteiras
 :date: 2016-05-17 01:46
 :authors: Magnun
 :category: Hack 'n' Cast
-:tags: bitcoin, mineração, carteiras
+:tags: podcast, bitcoin, mineração, carteiras, lojas, físicas, virtuais, ferramentas, farm, asics, papo bitcoin
 :image: /images/hack-n-cast/v0.x/v0.20-cover-sqr.jpg
 :length: 81321984
 :duration: 56:13
