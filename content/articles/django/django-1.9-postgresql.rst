@@ -134,7 +134,7 @@ Para o Fedora/Red Hat/CentOS utilize os seguintes comandos:
 
 .. code-block:: bash
 
-    $ sudo postgresql-setup --initdb --unit postgresql
+    $ sudo postgresql-setup initdb
     $ sudo systemctl enable postgresql
 
 Para o Arch Linux utilize os seguintes comandos:
