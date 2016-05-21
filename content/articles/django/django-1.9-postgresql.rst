@@ -61,6 +61,17 @@ Pronto, agora vamos instalar o Django!
 Instalando o Django
 -------------------
 
+Antes, vamso instalar algumas dependências:
+
+.. code-block:: bash
+
+    $ # Debian, Ubuntu e etc
+    $ sudo aptitude install python-devel python3-devel libpq-dev
+    $ # Fedora, Red Hat e CentOS
+    $ sudo yum install python-devel python3-devel libpqxx-devel
+    $ # Arch Linux
+    $ sudo pacman -S python-devel python3-devel postgressql-lib
+
 Para instalar o django é muito simples:
 
 .. code-block:: bash
