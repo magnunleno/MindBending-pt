@@ -32,7 +32,7 @@ Vamos começar criando um novo projeto:
     $ cd users
     $ mv apps.py config.py
 
-Em seguida altere a configuração dos templates para que ele busque-os em ``MeuProjeto/templates``:
+Em seguida altere a configuração dos *templates* para que ele busque-os em ``MeuProjeto/templates``:
 
 .. code-block:: python
 
@@ -56,7 +56,7 @@ Em seguida altere a configuração dos templates para que ele busque-os em ``Meu
 O Modelo e a Migração
 ---------------------
 
-O primeiro passo é criar um `model` para refletir os dados que você deseja que o usuário possua. Segue abaixo o meu model (``MeuProjeto/apps/users/models.py``):
+O primeiro passo é criar um `model` para refletir os dados que você deseja que o usuário possua. Segue abaixo o meu *model* (``MeuProjeto/apps/users/models.py``):
 
 .. code-block:: python
 
@@ -64,7 +64,7 @@ O primeiro passo é criar um `model` para refletir os dados que você deseja que
     from django.db import models
     from django.utils.translation import ugettext as _
     from django.contrib.auth.base_user import AbstractBaseUser, BaseUserManager
-    from django.contrib.auth.models import AbstractBaseUser, PermissionsMixin<Paste>
+    from django.contrib.auth.models import PermissionsMixin
 
 
     class EmailUserManager(BaseUserManager):
@@ -89,7 +89,7 @@ O primeiro passo é criar um `model` para refletir os dados que você deseja que
             return user
 
 
-    class MyUser(AbstractBaseUser, PermissionsMixin):
+    class MyUser(PermissionsMixin, AbstractBaseUser):
         email = models.EmailField(
             verbose_name=_('Email address'),
             unique=True,
@@ -113,7 +113,7 @@ Como podem ver existem duas classes. A primeira, ``EmailUserManager``, é uma cl
 
 Note que herdamos de ``AbstractBaseUser`` (que provê o esqueleto básico de um usuário) e de ``PermissionsMixin`` (que provê funcionalidade de permissionamento). Sem a primeira classe ``MyUser`` não poderia ser utilizado como um modelo de um usuário. Já sem a *Mixin* de permissionamento, a aplicação até funcionaria, mas faltariam funcionalidades de controle de superusuário (``is_superuser``), grupos (``groups``) e permissões (``user_permissions``).
 
-Em seguida precisamos ativar o app no arquivo ``MeuProjeto/settings.py`` adicionando a linha ``'apps.users'`` à chave de configuração ``INSTALLED_APPS``. Ao final ela deve conter as seguintes linhas:
+Em seguida precisamos ativar o *app* no arquivo ``MeuProjeto/settings.py`` adicionando a linha ``'apps.users'`` à chave de configuração ``INSTALLED_APPS``. Ao final ela deve conter as seguintes linhas:
 
 .. code-block:: python
 
@@ -140,7 +140,7 @@ Por último vamos adicionar em ``MeuProjeto/MeuProjeto/settings.py`` a indicaç�
 Forms, Views e mais Views
 -------------------------
 
-Vamos começar pelo mais fácil, um form para registro de usuário:
+Vamos começar pelo mais fácil, um *form* para registro de usuário:
 
 .. code-block:: python
 
@@ -157,7 +157,7 @@ Vamos começar pelo mais fácil, um form para registro de usuário:
 
 Como podem foram poucas linhas de código graças á possibilidade de herdar do *form* ``UserCreationForm``.
 
-Para apresentar esse form customizado vamos criar algumas views.
+Para apresentar esse *form* customizado vamos criar algumas *views*.
 
 .. code-block:: python
 
@@ -195,9 +195,9 @@ Para apresentar esse form customizado vamos criar algumas views.
         success_url = reverse_lazy('users:login')
         template_name = "users/register.html"
 
-Vamos com calma aqui. Primeiramente temos uma view ``home`` que apenas renderiza um template que mostraremos mais abaixo.
+Vamos com calma aqui. Primeiramente temos uma *view* ``home`` que apenas renderiza um *template* que mostraremos mais abaixo.
 
-Antes de falarmos da view ``login_view``, vamos descrever qual é o comportamento esperado de uma tela de login:
+Antes de falarmos da *view* ``login_view``, vamos descrever qual é o comportamento esperado de uma tela de login:
 
 #. Apresentar a tela de login caso o usuário não esteja autenticado;
 #. Caso um usuário já autenticado tente acessar a tela de login, este deve ser redirecionado e a tela de login não deve ser apresentada.
@@ -205,11 +205,11 @@ Antes de falarmos da view ``login_view``, vamos descrever qual é o comportament
 
 Para conseguir o primeiro e o segundo item dessa lista de comportamento adicionamos um ``if`` que verifica se o usuário está logado e, em caso positivo, redireciona-o para uma "home" (*view* ``home``). Já o para o segundo item precisamos informar a próxima tela após a autenticação, para isso customizamos alguns parâmetros através da sobrescrita do dicionário ``kwargs``.
 
-A view de logout (``logout_view``) também foi ligeiramente customizada, adicionando apenas o argumento ``next_url`` para que, assim que acessada esta página realiza o processo de logout e em seguida redireciona o usuário.
+A *view* de logout (``logout_view``) também foi ligeiramente customizada, adicionando apenas o argumento ``next_url`` para que, assim que acessada esta página realiza o processo de logout e em seguida redireciona o usuário.
 
-Por último, temos a view que vai renderizar o *form* criado anteriormente. Ela é uma CBV (*Class Based View*) bem siples que herda de ``CreateView`` e customiza o ``form_class`` para o *form* que criamos, a ``succcess_url`` e o ``template_name``.
+Por último, temos a *view* que vai renderizar o *form* criado anteriormente. Ela é uma CBV (*Class Based View*) bem simples que herda de ``CreateView`` e customiza o ``form_class`` para o *form* que criamos, a ``succcess_url`` e o ``template_name``.
 
-Agora vamos apresentar estes templates. Começando pelo mais simples...
+Agora vamos apresentar estes *templates*. Começando pelo mais simples...
 
 .. code-block:: html
 
@@ -225,7 +225,7 @@ Agora vamos apresentar estes templates. Começando pelo mais simples...
 
 Nada de mais mesmo, apenas apresenta o nome do usuário (ou a string *usuário anônimo*) e alguns links, dependendo se o usuário está logado ou não.
 
-Agora o template para registrar o usuário:
+Agora o *template* para registrar o usuário:
 
 .. code-block:: html
 
@@ -251,7 +251,7 @@ Por último o formulário para login.
     <button type="submit" class="btn btn-warning"><i class="fa fa-plus" aria-hidden="true"></i> Login</button>
     </form>
 
-Este tem um pequeno detalhe, que é inserção do atributo ``action`` apontando para a URL atual e tendo como argumento uma variável ``next``, que foi informada na view ``login_view``. Este arumento irá garantir que após o login o usuário será redirecionado para esta URL.
+Este tem um pequeno detalhe, que é inserção do atributo ``action`` apontando para a URL atual e tendo como argumento uma variável ``next``, que foi informada na *view* ``login_view``. Este argumento irá garantir que após o login o usuário será redirecionado para esta URL.
 
 Apontamento de URLs
 -------------------
@@ -273,7 +273,7 @@ Para finalizar vamos realizar o apontamento das URLs:
         url(r'^register/$', views.RegistrationView.as_view(), name="register"),
     ]
 
-Antes que alguém comente dizendo que eu poderia ter feito boa parte das customizações das *views* de login e logout, assim como a view home diretamente no arquivo de URLs, eu já adianto que eu não gosto dessa prática. Já adotei esse tipo de prática e percebi que é um *maintenance hell*, aprendi que as *urls* devem possuir apenas apontamento de URLs, nada de variáveis como nome de templates e etc.
+Antes que alguém comente dizendo que eu poderia ter feito boa parte das customizações das *views* de login e logout, assim como a *view* *home* diretamente no arquivo de URLs, eu já adianto que eu não gosto dessa prática. Já adotei esse tipo de prática e percebi que é um *maintenance hell*, aprendi que as *urls* devem possuir apenas apontamento de URLs, nada de variáveis como nome de *templates* e etc.
 
 Mais simples que este arquivo de URLs, somente mesmo o mapeamento de URLs do principais do projeto.
 
@@ -294,10 +294,10 @@ Mais simples que este arquivo de URLs, somente mesmo o mapeamento de URLs do pri
 Fechamento
 ----------
 
-Com poucas linhas de código (aproveitando o máximo que o framework disponibiliza) já temos a estrutura básica de registro, login e logout de usuários. Claro que ainda não é um primor, e muito pode ser melhorado, principalmente na parte de HTML/CSS, mas este já é um esquelto básico de 75% das aplicações que você pode vir a desenvolver.
+Com poucas linhas de código (aproveitando o máximo que o *framework* disponibiliza) já temos a estrutura básica de registro, login e logout de usuários. Claro que ainda não é um primor, e muito pode ser melhorado, principalmente na parte de HTML/CSS, mas este já é um esqueleto básico de 75% das aplicações que você pode vir a desenvolver.
 
 Pontos pendentes:
 
 * Edição de dados de perfil do usuário;
 * Troca de senha;
-* Reset de senha (o famoso "esqueci minha senha");
+* *Reset* de senha (o famoso "esqueci minha senha");
