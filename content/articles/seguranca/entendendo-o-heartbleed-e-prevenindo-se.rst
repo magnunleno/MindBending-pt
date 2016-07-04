@@ -1,4 +1,4 @@
-Entendendo o Heartbleed e Previnendo-se
+Entendendo o Heartbleed e Prevenindo-se
 #######################################
 :date: 2014-04-10 11:26
 :category: Segurança
