@@ -44,6 +44,6 @@ Para ver o show notes completo, acesso o `post no site do Hack 'n' Cast`_.
 .. _iTunes: https://itunes.apple.com/br/podcast/hack-n-cast/id884916846?l=en
 .. _Pocket Casts: http://pcasts.in/hackncast
 .. _Google Groups: https://groups.google.com/forum/?hl=pt-BR#!forum/hackncast
-.. _post no site do Hack 'n' Cast: http://hackncast.org/v13-e-o-sl-no-governo
+.. _post no site do Hack 'n' Cast: http://hackncast.org/v13-e-o-software-livre-no-governo
 .. _email: mailto: everton [dot] win32 [at] mail [dot] com
 
