@@ -3,7 +3,7 @@ Hack 'n' Cast v1.4 - Espresso #001: Mulher Nota 1000 Na Produção De Cachaça
 :date: 2017-02-15 23:50
 :authors: Magnun
 :category: Hack 'n' Cast
-:tags: podcast, espresso
+:tags: podcast, espresso, segurança, invasão, hack 'n' cast, sisu, enen, mec
 :image: /images/hack-n-cast/v1.x/v1.4-cover-sqr.jpg
 :length: 25974784
 :duration: 35:43
