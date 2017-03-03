@@ -8,8 +8,8 @@ Hack 'n' Cast v1.5 - Contribuindo com o Mundo FOSS
 :length: 70518784
 :duration: 97:48
 :podcast: HNC.v1.5-Contribuindo-com-o-Mundo-FOSS
-:podcast: http://archive.org/download/HNC.v1.5-Contribuindo-com-o-Mundo-FOSS/HNC.v1.5-Contribuindo-com-o-Mundo-FOSS
-:podcastembed: http://archive.org/embed/HNC.v1.5-Contribuindo-com-o-Mundo-FOSS/HNC.v1.5-Contribuindo-com-o-Mundo-FOSS
+:podcast: http://archive.org/download/HNC.v1.5-Contribuindo-com-o-Mundo-FOSS/HNC.v1.5-Contribuindo-com-o-Mundo-FOSS.mp3
+:podcastembed: http://archive.org/embed/HNC.v1.5-Contribuindo-com-o-Mundo-FOSS/HNC.v1.5-Contribuindo-com-o-Mundo-FOSS.mp3
 :description: Se você já desejou contribuir com o mundo do Free or Open Source Software mas nunca se sentiu capaz, esse episódio é pra você!
 
 A maioria das pessoas que entra para o mundo FOSS acaba tendo aquela sensação de que "precisa" devolver algo para a comunidade. Mas muitos não são programadores, e os poucos que são, não se consideram bons o suficiente para contribuir com algum trecho de código. Aos poucos, esse sentimento vai morrendo e vai dando lugar à estagnação. E é esse tipo de comportamento que mina o crescimento de uma comunidade, podendo desembocar até no cancelamento de um projeto FOSS.
