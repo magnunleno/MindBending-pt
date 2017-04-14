@@ -27,12 +27,34 @@ No Arch Linux utilize o seguinte comando:
 
         $ pacman -S python-setuptools python-virtualenv libxml2 libxslt
 
-Em seguida crie um ambiente virtual (`virtualenv`) para poder instalar o pelican:
+Configurando um ambiente virtual com virtualenv (opcional para quem)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Execute os passos abaixo apenas caso você não tenha um método de isolamento de dependências. Caso já tenha um método de gerenciamento de dependências pule para o próximo passo (Instale as dependências com o comando abaixo).
+
+O comando abaixo criará um ambiente isolando as dependências apenas no seu projeto:
 
 .. code::
 
-        $ mkdir ~/venv
-        $ virtualenv -p /usr/bin/python3 --prompt "(pelican-3.4)" ~/venv/pelican-3.4
+        $ python -m venv .${PWD##*/} #python -m venv .MindBending-pt
+
+
+Instalando as dependências
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Execute o comando abaixo para ativar o seu ambiente virtual
+
+.. code::
+
+    $ source ".${PWD##*/}"/bin/activate
+
+    _Calma criaremos um atalho para isso mais para frente._
+
+Instale as dependências com o comando abaixo:
+
+.. code::
+
+        $ pip3 install -r ./requirements.txt
 
 Agora obtenha o código fonte do site Mind Bending:
 
@@ -107,7 +129,7 @@ Ou faça tudo em um comando só:
 
         make html && make server
 
-Em seguida acesse o site através da URL http://localhost:8080
+Em seguida acesse o site através da URL http://localhost:8000
 
 Navegando via Sistema de Arquvios (Caminhos Relativos)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

@@ -2,7 +2,6 @@
 PY?=python3
 PELICAN?=pelican
 PELICANOPTS=
-VENV=~/venv/pelican-3.4/bin/activate
 # }}}
 
 # Dirs setup {{{
@@ -56,10 +55,10 @@ help:
 	@echo '                                                                                  '
 
 html:
-	. $(VENV); $(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
+	pelican $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
 
 relative:
-	. $(VENV); $(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(RELATIVECONF) $(PELICANOPTS)
+	pelican $(INPUTDIR) -o $(OUTPUTDIR) -s $(RELATIVECONF) $(PELICANOPTS)
 
 clean:
 	[ ! -d $(OUTPUTDIR) ] || rm -rf $(OUTPUTDIR)/*
@@ -69,13 +68,13 @@ clean-nginx:
 	[ ! -d $(NGINXDIR) ] || rm -rf $(NGINXDIR)/*
 
 regenerate:
-	. $(VENV); $(PELICAN) -r $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
+	pelican -r $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
 
 serve:
 ifdef PORT
-	. $(VENV); cd $(OUTPUTDIR) && $(PY) -m pelican.server $(PORT)
+	cd $(OUTPUTDIR) && $(PY) -m pelican.server $(PORT)
 else
-	. $(VENV); cd $(OUTPUTDIR) && $(PY) -m pelican.server
+	cd $(OUTPUTDIR) && $(PY) -m pelican.server
 endif
 
 devserver:
@@ -91,7 +90,7 @@ stopserver:
 	@echo 'Stopped Pelican and SimpleHTTPServer processes running in background.'
 
 nginx:
-	. $(VENV); $(PELICAN) $(INPUTDIR) -o $(TMPDIR) -s $(NGINXCONF) $(PELICANOPTS)
+	pelican $(INPUTDIR) -o $(TMPDIR) -s $(NGINXCONF) $(PELICANOPTS)
 	rm -rf $(NGINXDIR)/*
 	cp -r $(TMPDIR)/* $(NGINXDIR)/
 
