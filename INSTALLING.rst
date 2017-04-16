@@ -46,10 +46,10 @@ Execute o comando abaixo para ativar o seu ambiente virtual
 
 .. code::
 
-    $ source ".${PWD##*/}"/bin/activate
+        $ source ".${PWD##*/}"/bin/activate
 
 
-    _Calma criaremos um atalho para isso mais para frente._
+_Calma criaremos um atalho para isso mais para frente._
 
 Instale as dependências com o comando abaixo:
 
