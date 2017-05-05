@@ -12,7 +12,7 @@ Hack 'n' Cast v1.7 - Segurança Básica de Servidores GNU/Linux
 :podcastembed: http://archive.org/embed/HNC.v1.7-Seguraca-Basica-de-Servidores-GNU-Linux/HNC.v1.7-Seguraca-Basica-de-Servidores-GNU-Linux.mp3
 :description: Com quantas mancadas se perde um servidor?
 
-Neste episódio a galera do Hack 'n' Cast conta com a presença ilustre do ouvinte Fabio Benedito e da figurinha carimbada Everton Melo para falar de um tema pouco comentado: Os vacilos que damos ao colocar um servidor GNU/Linux na internet. Mas calma, não será um episódio sobre historinhas de como demos mancadas, mas sim uma aula de o que não fazer e as boas práticas para se ter um servidor GNU/Linux mínimamente seguro nessa nossa internet sem porteira.
+Neste episódio a galera do Hack 'n' Cast conta com a presença ilustre do ouvinte Fabio Beneditto e da figurinha carimbada Everton Melo para falar de um tema pouco comentado: Os vacilos que damos ao colocar um servidor GNU/Linux na internet. Mas calma, não será um episódio sobre historinhas de como demos mancadas, mas sim uma aula de o que não fazer e as boas práticas para se ter um servidor GNU/Linux mínimamente seguro nessa nossa internet sem porteira.
 
 .. image:: {filename}/images/hack-n-cast/v1.x/v1.7-cover-wide.jpg
         :target: {filename}/images/hack-n-cast/v1.x/v1.7-cover-wide.jpg
