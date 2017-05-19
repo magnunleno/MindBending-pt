@@ -54,7 +54,7 @@ Até mais...
 .. |aqui1| replace:: aqui
 .. |aqui2| replace:: aqui
 .. |aqui3| replace:: aqui
-.. _aqui1: http://twitter.com/mind_bend
+.. _aqui1: http://twitter.com/magnunleno
 .. _aqui2: https://plus.google.com/+MindbendingOrg
 .. _aqui3: http://www.facebook.com/MindBendingBlog
 .. _esse som: /pt/audio/som.mp3

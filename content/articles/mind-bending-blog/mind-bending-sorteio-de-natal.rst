@@ -160,10 +160,10 @@ Python**, de Nilo Ney Coutinho.
 .. _Aurelio Marinho Jargas: http://aurelio.net
 .. _oreio: http://twitter.com/oreio
 .. _Piazinho: http://www.piazinho.com.br/
-.. _Mind Bending no Twitter: http://twitter.com/mind_bend
-.. _@mind\_bend: http://twitter.com/mind_bend
+.. _Mind Bending no Twitter: http://twitter.com/magnunleno
+.. _@mind\_bend: http://twitter.com/magnunleno
 .. _sorteie.me: http://beta.sorteie.me/
 .. _Shell Script Profissional: http://www.novatec.com.br/livros/shellscript/
 .. _Introdução à Programação com Python: http://www.novatec.com.br/livros/intropython/
-.. _Celso Saad: https://twitter.com/#!/mind_bend/status/154674557863735296
-.. _Enildo Junior: https://twitter.com/#!/mind_bend/status/154675826577768448
+.. _Celso Saad: https://twitter.com/#!/magnunleno/status/154674557863735296
+.. _Enildo Junior: https://twitter.com/#!/magnunleno/status/154675826577768448

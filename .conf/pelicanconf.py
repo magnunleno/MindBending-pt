@@ -24,7 +24,7 @@ LINKS =  (
 SOCIAL = (
         ('envelope', 'mailto: &#109;&#105;&#110;&#100;&#098;&#101;&#110;&#100;&#105;&#110;&#103;&#098;&#108;&#111;&#103;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;'),
         ('github', 'https://github.com/magnunleno'),
-        ('twitter', 'https://twitter.com/mind_bend'),
+        ('twitter', 'https://twitter.com/magnunleno'),
         ('google+', 'http://plus.google.com/102063745956138544914'),
         ('facebook', 'http://facebook.com/MindBendingBlog'),
         ('stack-overflow', 'http://stackoverflow.com/users/498227'),
@@ -72,7 +72,7 @@ AUTHORS = {
                     'e nas horas vagas é Programador OpenSource (Python e C) '+\
                     'desenhista e escritor do Mind Bending Blog.',
             'links' : (
-                ('Twitter', 'https://twitter.com/mind_bend'),
+                ('Twitter', 'https://twitter.com/magnunleno'),
                 ('Google+', 'https://plus.google.com/+MindbendingOrg?rel=author'),
                 ('GitHub', 'https://github.com/magnunleno'),
                 ('Facebook', 'https://www.facebook.com/MindBendingBlog'),

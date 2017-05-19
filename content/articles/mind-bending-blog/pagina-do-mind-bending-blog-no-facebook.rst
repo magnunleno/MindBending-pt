@@ -39,6 +39,6 @@ Por enquanto é só pessoal!
 .. _Doode: http://www.doode.net/
 .. _Facebook: http://www.facebook.com/pages/Mind-Bending-Blog/278479452186225
 .. _Google+: http://plus.google.com/u/1/115224234081976988047
-.. _Twitter: http://twitter.com/mind_bend
+.. _Twitter: http://twitter.com/magnunleno
 .. _minha página: http://www.facebook.com/pages/Mind-Bending-Blog/278479452186225
-.. _twitter: http://twitter.com/mind_bend
+.. _twitter: http://twitter.com/magnunleno

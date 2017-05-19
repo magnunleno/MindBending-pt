@@ -64,6 +64,6 @@ válido somente até o dia **31 e Dezembro de 2012**.
 .. _Introdução à Programação com Python: http://www.novatec.com.br/livros/intropython/
 .. _`Expressões Regulares: uma abordagem divertida`: http://www.novatec.com.br/livros/expressoesregulares/
 .. _@oreio: http://twitter.com/oreio
-.. _Celso Saad: https://twitter.com/#!/mind_bend/status/154674557863735296
-.. _Enildo Júnior: https://twitter.com/#!/mind_bend/status/154675826577768448
-.. _@mind\_bend: https://twitter.com/#!/mind_bend
+.. _Celso Saad: https://twitter.com/#!/magnunleno/status/154674557863735296
+.. _Enildo Júnior: https://twitter.com/#!/magnunleno/status/154675826577768448
+.. _@mind\_bend: https://twitter.com/#!/magnunleno

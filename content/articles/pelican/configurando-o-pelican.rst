@@ -43,12 +43,12 @@ Configurando Links e Redes Sociais
         GITHUB_URL = 'http://github.com/magnunleno/'
 
         # Twitter
-        TWITTER_USERNAME = 'mind_bend'
+        TWITTER_USERNAME = 'magnunleno'
 
         # Social widget
         SOCIAL = (
                 ('github', 'https://github.com/magnunleno'),
-                ('twitter', 'https://twitter.com/mind_bend'),
+                ('twitter', 'https://twitter.com/magnunleno'),
                 ('google+', 'http://plus.google.com/102063745956138544914'),
                 ('facebook', 'http://facebook.com/MindBendingBlog'),
                 ('stack-overflow', 'http://stackoverflow.com/users/498227'),
