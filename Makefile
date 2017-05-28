@@ -2,6 +2,7 @@
 PY?=python3
 PELICAN?=pelican
 PELICANOPTS=
+VENV=~/venv/pelican-3.4/bin/activate
 # }}}
 
 # Dirs setup {{{
@@ -42,7 +43,7 @@ help:
 	@echo '   make html                        (re)generate the web site                     '
 	@echo '   make clean                       remove the generated files                    '
 	@echo '   make regenerate                  regenerate files upon modification            '
-	@echo '   make serve [PORT=8000]           serve site at http://localhost:8000           '
+	@echo '   make server [PORT=8000]           server site at http://localhost:8000           '
 	@echo '   make devserver [PORT=8000]       start/restart develop_server.sh               '
 	@echo '   make stopserver                  stop local server                             '
 	@echo '   make relative                    build with relative paths (open with browser) '
@@ -55,10 +56,10 @@ help:
 	@echo '                                                                                  '
 
 html:
-	pelican $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
+	. $(VENV); $(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
 
 relative:
-	pelican $(INPUTDIR) -o $(OUTPUTDIR) -s $(RELATIVECONF) $(PELICANOPTS)
+	. $(VENV); $(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(RELATIVECONF) $(PELICANOPTS)
 
 clean:
 	[ ! -d $(OUTPUTDIR) ] || rm -rf $(OUTPUTDIR)/*
@@ -68,13 +69,13 @@ clean-nginx:
 	[ ! -d $(NGINXDIR) ] || rm -rf $(NGINXDIR)/*
 
 regenerate:
-	pelican -r $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
+	. $(VENV); $(PELICAN) -r $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
 
-serve:
+server:
 ifdef PORT
-	cd $(OUTPUTDIR) && $(PY) -m pelican.server $(PORT)
+	. $(VENV); cd $(OUTPUTDIR) && $(PY) -m pelican.server $(PORT)
 else
-	cd $(OUTPUTDIR) && $(PY) -m pelican.server
+	. $(VENV); cd $(OUTPUTDIR) && $(PY) -m pelican.server
 endif
 
 devserver:
@@ -90,7 +91,7 @@ stopserver:
 	@echo 'Stopped Pelican and SimpleHTTPServer processes running in background.'
 
 nginx:
-	pelican $(INPUTDIR) -o $(TMPDIR) -s $(NGINXCONF) $(PELICANOPTS)
+	. $(VENV); $(PELICAN) $(INPUTDIR) -o $(TMPDIR) -s $(NGINXCONF) $(PELICANOPTS)
 	rm -rf $(NGINXDIR)/*
 	cp -r $(TMPDIR)/* $(NGINXDIR)/
 

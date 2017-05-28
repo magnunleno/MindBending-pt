@@ -47,7 +47,7 @@ Popule o ambiente virtual (`virtualenv`) criado anteriormente utilizando os paco
 
         $ . ~/venv/pelican-3.4/bin/activate; pip3 install -r ./requirements.txt; deactivate
 
-**Nota:** Repare que antes do ambiente virutal existe um ponto.
+**Nota:** Repare que antes do ambiente virtual existe um ponto.
 
 .. _requirements.txt: https://github.com/magnunleno/MindBending-pt/blob/master/requirements.txt
 
@@ -107,7 +107,7 @@ Ou faça tudo em um comando só:
 
         make html && make server
 
-Em seguida acesse o site através da URL http://localhost:8080
+Em seguida acesse o site através da URL http://localhost:8000
 
 Navegando via Sistema de Arquvios (Caminhos Relativos)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
