@@ -99,7 +99,7 @@ Em seguida inicie o servidor através do seguinte comando:
 
 .. code::
 
-        $ make serve
+        $ make server
 
 Ou faça tudo em um comando só:
 
