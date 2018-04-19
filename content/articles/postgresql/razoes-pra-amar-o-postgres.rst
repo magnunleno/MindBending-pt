@@ -166,8 +166,9 @@ Felizmente, o Django também ama o PostgreSQL, pois, nativamente, ele também su
 
 .. code-block:: python
 
+    >>> from django.contrib.postgres.aggregates.general import ArrayAgg
     >>> queryset = User.objects\
-    ...     .annotate(arr=ArrayAgg('groups__name'))\
+    ...     .annotate(grupos=ArrayAgg('groups__name'))\
     ...     .values('id', 'username', 'grupos')
     ...
     >>> pprint([ i for i in queryset])
