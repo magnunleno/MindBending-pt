@@ -118,13 +118,7 @@
                 <p class="lead">{{ article.description }}</p>
             </div>
             <div class="entry-content">
-            {% if SHAREHOLIC_ARTICLE_CONTENT_POSITION in ('both', 'before') %}
-            {% include 'includes/shareholic-share.html' %}
-            {% endif %}
                 {{ article.content|replace("<html>","")|replace("<body>","")|replace("</html>","")|replace("</body>","") }}
-            {% if SHAREHOLIC_ARTICLE_CONTENT_POSITION in ('both', 'after') %}
-            {% include 'includes/shareholic-share.html' %}
-            {% endif %}
             </div>
             {% include 'includes/addthis.html' %}
             <!-- /.entry-content -->

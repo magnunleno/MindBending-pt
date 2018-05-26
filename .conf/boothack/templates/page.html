@@ -82,13 +82,7 @@
             </a>
         {% endif %}
         <div class="entry-content">
-            {% if SHAREHOLIC_PAGE_CONTENT_POSITION in ('both', 'before') %}
-            {% include 'includes/shareholic-share.html' %}
-            {% endif %}
             {{ page.content }}
-            {% if SHAREHOLIC_PAGE_CONTENT_POSITION in ('both', 'after') %}
-            {% include 'includes/shareholic-share.html' %}
-            {% endif %}
         </div>
         {% if PAGE_ADSENSE is defined %}
         <div class="adsense">

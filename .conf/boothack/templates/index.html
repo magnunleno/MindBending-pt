@@ -11,13 +11,7 @@
                     {% include 'includes/article_info.html' %}
                 </header>
                     <div class="entry-content">
-                    {% if SHAREHOLIC_INDEX_CONTENT_POSITION in ('both', 'before') %}
-                    {% include 'includes/shareholic-share-index.html' %}
-                    {% endif %}
                     {{ article.summary|replace("<html>","")|replace("<body>","")|replace("</html>","")|replace("</body>","") }}
-                    {% if SHAREHOLIC_INDEX_CONTENT_POSITION in ('both', 'after') %}
-                    {% include 'includes/shareholic-share-index.html' %}
-                    {% endif %}
                     </div>
                     <div>
                         <a id="more" class="btn btn-primary btn-xs pull-right" href="{{ SITEURL }}/{{ article.url }}">More <i class="fa fa-long-arrow-right"></i></a>
